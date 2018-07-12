@@ -1,6 +1,10 @@
 <%@ page language="java" contentType="text/html; charset=utf-8"
 
          pageEncoding="utf-8"%>
+
+<%
+    String baseDir = request.getRequestURI();
+%>
 <!DOCTYPE html>
 <html lang="en" class="no-js">
 <head>
@@ -18,8 +22,8 @@
     <div class="content">
         <div id="large-header" class="large-header">
             <canvas id="demo-canvas"></canvas>
-            <div class="logo_box">.idea\workspace.xml
-                <h3>登录</h3>.idea\workspace.xml
+            <div class="logo_box">
+                <h3>登录</h3>
                 <form id="form">
                     <div class="input_outer">
                         <span class="u_user"></span>
@@ -53,7 +57,7 @@
             $.ajax({
                 type: "POST",
                 dataType: "text/json",
-                url: "loginServlet",
+                url: "login",
                 async: false,
                 data:{
                     employee_id:employee_id.val(),
@@ -62,8 +66,7 @@
                 success:function (data) {
                     json = JSON.parse(data);
                     if(json.success == '1' && json.user_id == employee_id.val()){
-                        alert("success!");
-                        window.location.href='http://www.baidu.com';
+                        window.location.href="management?employee_id="+ json.user_id;
                         window.event.returnValue=false;
                     }
                     else{

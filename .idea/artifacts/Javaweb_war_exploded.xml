@@ -7,6 +7,10 @@
         <element id="directory" name="classes">
           <element id="module-output" name="Javaweb" />
         </element>
+        <element id="directory" name="lib">
+          <element id="library" level="project" name="Arquillian JUnit:Release" />
+          <element id="file-copy" path="$PROJECT_DIR$/web/lib/mysql-connector-java-8.0.11.jar" />
+        </element>
       </element>
     </root>
   </artifact>

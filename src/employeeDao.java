@@ -27,7 +27,6 @@ public class employeeDao {
         try{
             Class.forName(driver);
             conn=DriverManager.getConnection(url, user, passwd);
-
         }
         catch(ClassNotFoundException e)
         {
@@ -80,5 +79,26 @@ public class employeeDao {
             e.printStackTrace();
         }
         return true;
+    }
+    public ResultSet getEmployeeResults(String EID){
+        String sql = "select * from ert_employees where id = ?";
+        try{
+            pstat=conn.prepareStatement(sql);
+            pstat.setString(1, EID);
+            return pstat.executeQuery();
+        }catch (SQLException e){
+            e.printStackTrace();
+        }
+        return null;
+    }
+    public ResultSet getAllEmployeesResults(){
+        String sql = "select * from ert_employees";
+        try{
+            pstat = conn.prepareStatement(sql);
+            return pstat.executeQuery();
+        }catch (SQLException e){
+            e.printStackTrace();
+        }
+        return null;
     }
 }

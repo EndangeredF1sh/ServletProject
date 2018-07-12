@@ -3,9 +3,11 @@ import javax.servlet.annotation.WebServlet;
 import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
+import javax.servlet.http.HttpSession;
 import java.io.IOException;
 import java.io.PrintWriter;
-@WebServlet("/loginServlet")
+
+@WebServlet(value = "/login")
 public class loginServlet extends HttpServlet {
     private String message;
     protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException{
@@ -19,6 +21,19 @@ public class loginServlet extends HttpServlet {
         employeeDao e = new employeeDao();
         if(e.employeePasswordVerification(employee_id, password_hash_input)){
             message = "{\"user_id\":"+employee_id+",\"success\":1}";
+            HttpSession session = request.getSession(true);
+            String userIDKey = "employee_id";
+            String sessionIDKey = "sessionIDKey";
+            if(session.isNew()){
+                session.setAttribute(userIDKey, employee_id);
+                session.setAttribute(sessionIDKey, session.getId());
+            }
+            else{
+                session.invalidate();
+                session = request.getSession(true);
+                session.setAttribute(userIDKey, employee_id);
+                session.setAttribute(sessionIDKey, session.getId());
+            }
         }
         else{
             message = "{\"user_id\":"+employee_id+",\"success\":0}";
