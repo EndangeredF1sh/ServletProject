@@ -1,0 +1,17 @@
+body{
+	font-size: 150%;
+}
+#logo{
+	width: 130px;
+	height: 130px;
+}
+#page-wrapper{
+	background-color: #eee;
+	height:750px;
+}
+.right{
+float: right;
+}
+.tag{
+
+}
