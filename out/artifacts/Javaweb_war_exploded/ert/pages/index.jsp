@@ -221,7 +221,8 @@
                 <div class="col-9 " style=" display: inline-block;margin-right: 5px;">
                     <input type="text" class="form-control input-sm-10" placeholder="输入职位搜索"></div>
                 <div class="col-9 " style=" display: inline-block;margin-right: 5px;">
-                    <input type="text" class="form-control input-sm-10" placeholder="输入岗位搜索"></div><a type="submit" ><i style="margin-left: 10px;" class="fa fa-search"></i></a>
+                    <input type="text" class="form-control input-sm-10" placeholder="输入岗位搜索"></div>
+                <a type="submit" ><i style="margin-left: 10px;" class="fa fa-search"></i></a>
             </li>
             <li class="list-group-item">姓名 原岗位 现岗位 </li>
 
@@ -549,11 +550,15 @@
             <li class="list-group-item">
                 <form class="form-horizontal">
                     <div class="col-9 " style=" display: inline-block;margin-right: 5px;">
-                        <input type="text" id="we1" class="form-control input-sm-10" placeholder="输入名字搜索"></div>
+                        <input type="text" id="we1" class="form-control input-sm-10" placeholder="搜索员工ID"></div>
                     <div class="col-9 " style=" display: inline-block;margin-right: 5px;">
-                        <input type="text" id="we2" class="form-control input-sm-10" placeholder="输入职位搜索"></div>
+                        <input type="text" id="we2" class="form-control input-sm-10" placeholder="搜索原岗位"></div>
                     <div class="col-9 " style=" display: inline-block;margin-right: 5px;">
-                        <input type="text" id="we3" class="form-control input-sm-10" placeholder="输入岗位搜索"></div>
+                        <input type="text" id="we3" class="form-control input-sm-10" placeholder="搜索原部门"></div>
+                    <div class="col-9 " style=" display: inline-block;margin-right: 5px;">
+                        <input type="text" id="we4" class="form-control input-sm-10" placeholder="搜索现岗位"></div>
+                    <div class="col-9 " style=" display: inline-block;margin-right: 5px;">
+                        <input type="text" id="we5" class="form-control input-sm-10" placeholder="搜索现部门"></div>
                     <button type="button" class="btn btn-xs btn-green">保存</button>
                 </form>
             </li>

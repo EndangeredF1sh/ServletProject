@@ -30,7 +30,11 @@ public class resultSetToJson {
     }
     public static String resultSetToJsonForString(ResultSet rs) throws SQLException, NullPointerException{
         JSONArray arr = resultSetToJson(rs);
-        if(arr.isEmpty()) return null;
+        try{
+            if(arr.isEmpty()) return "{}";
+        }catch (NullPointerException e){
+            return "{}";
+        }
         return arr.toJSONString();
     }
 }

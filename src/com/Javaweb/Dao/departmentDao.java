@@ -38,4 +38,13 @@ public class departmentDao extends baseDao{
         }
         return null;
     }
+    public ResultSet getAllDepartmentInfo(){
+        String sql = "select * from ert_departments";
+        try{
+            pstat = conn.prepareStatement(sql);
+            return pstat.executeQuery();
+        }catch (SQLException e){
+            return null;
+        }
+    }
 }
