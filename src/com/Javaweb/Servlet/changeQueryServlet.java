@@ -22,14 +22,12 @@ public class changeQueryServlet extends HttpServlet {
         try {
             String JSON = resultSetToJson.resultSetToJsonForString(dao.getParamChangeResults(queryID,queryOldPosition,queryOldDepartment,queryNewPosition,queryNewDepartment));
             out.println(JSON);
-            System.out.println(JSON);
+//            System.out.println(JSON);
         } catch (SQLException e) {
             e.printStackTrace();
         }
     }
 
     protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-        PrintWriter out = response.getWriter();
-        out.println("hello world!");
     }
 }

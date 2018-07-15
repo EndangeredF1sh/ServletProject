@@ -3,17 +3,7 @@
          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_4_0.xsd"
          metadata-complete="false" version="4.0">
-    <servlet>
-        <!-- 类名 -->
-        <servlet-name>SessionTrack</servlet-name>
-        <!-- 所在的包 -->
-        <servlet-class>com.Javaweb.Servlet.SessionTrack</servlet-class>
-    </servlet>
-    <servlet-mapping>
-        <servlet-name>SessionTrack</servlet-name>
-        <!-- 访问的网址 -->
-        <url-pattern>/TomcatTest/com.Javaweb.Servlet.SessionTrack</url-pattern>
-    </servlet-mapping>
+
     <servlet>
         <!-- 类名 -->
         <servlet-name>changePersonalInfoServlet</servlet-name>
@@ -51,6 +41,19 @@
         <!-- 访问的网址 -->
         <url-pattern>/changeQueryServlet</url-pattern>
     </servlet-mapping>
+
+    <servlet>
+        <!-- 类名 -->
+        <servlet-name>DeptWeightServlet</servlet-name>
+        <!-- 所在的包 -->
+        <servlet-class>com.Javaweb.Servlet.DeptWeightServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>DeptWeightServlet</servlet-name>
+        <!-- 访问的网址 -->
+        <url-pattern>/DeptWeightServlet</url-pattern>
+    </servlet-mapping>
+
     <session-config>
         <session-timeout>60</session-timeout>
     </session-config>

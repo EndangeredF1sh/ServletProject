@@ -1,6 +1,6 @@
 <%@ page language="java" contentType="text/html; charset=utf-8"
 
-         pageEncoding="utf-8"%>
+              pageEncoding="utf-8"%>
 <%
     String path = request.getContextPath() + "/ert/";
     String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.getServerPort()+path;
@@ -45,10 +45,36 @@
     <![endif]-->
     <link href="../css/style.css" rel="stylesheet" type="text/css">
     <link>
+    <style>
+
+        /*回到顶部*/
+        .back-top
+        {
+            position: fixed;
+            right: 15px;
+            bottom: 15px;
+            z-index: 9999;
+            font-size: 25px;
+            width: 40px;
+            height: 40px;
+            background-color: #adadad;
+            color: #ffffff;
+            cursor: pointer;
+            border-radius: 2px;
+            text-align: center;
+        }
+        .back-top:hover
+        {
+            background-color: #a3a3a3;
+        }
+    </style>
 </head>
 
-<body>
+<body >
 
+<div class="back-top" style="display: none;" title="回到顶部">
+    <i class="fa fa-angle-double-up"></i>
+</div>
 <div id="wrapper">
 
     <!-- Navigation -->
@@ -58,7 +84,7 @@
             </button>
 
             <a class="navbar-brand" href="index.html" style="display: block;">QAQ</a>
-            <button class="btn btn-yellow btn-ms" data-toggle="modal" data-target="#addSource" style="position: absolute;top: 10px;z-index: 100px;">切换账号</button>
+            <button class="btn btn-yellow btn-ms" data-toggle="modal" data-target="#addSource" style="position: absolute;top: 10px;z-index: 100;">切换账号</button>
             <!-- /.navbar-header -->
 
 
@@ -189,7 +215,7 @@
                             <div class="form-group">
                                 <label for="sPassword" class="col-xs-3 control-label">密码：</label>
                                 <div class="col-xs-8">
-                                    <input type="" class="form-control input-sm duiqi" id="sKnot" placeholder="请输入密码">
+                                    <input type="password" class="form-control input-sm duiqi" id="sKnot" placeholder="请输入密码">
                                 </div>
                             </div>
 
@@ -198,7 +224,7 @@
                 </div>
                 <div class="modal-footer">
                     <button type="button" class="btn btn-xs btn-xs btn-white" data-dismiss="modal">取 消</button>
-                    <button type="button" class="btn btn-xs btn-xs btn-green">保 存</button>
+                    <button type="button" id= "switchbtn" class="btn btn-xs btn-xs btn-green">保 存</button>
                 </div>
             </div>
             <!-- /.modal-content -->
@@ -224,7 +250,7 @@
                     <input type="text" class="form-control input-sm-10" placeholder="输入岗位搜索"></div>
                 <a type="submit" ><i style="margin-left: 10px;" class="fa fa-search"></i></a>
             </li>
-            <li class="list-group-item">姓名 原岗位 现岗位 </li>
+            <li class="list-group-item"><span style="margin: 45px;">ID</span> <span style="margin: 45px;">姓名</span> <span style="margin: 45px;">原岗位</span> <span style="margin: 45px;">现岗位</span><span style="margin: 45px;">原部门</span><span style="margin: 45px;">现部门</span> <span style="margin: 45px;">调动日期</span></li>
 
 
 
@@ -472,6 +498,14 @@
             <li class="list-group-item">姓名 原岗位 现岗位 </li>
 
 
+            <li class="list-group-item list-group-item-primary">This is a primary list group item</li>
+            <li class="list-group-item list-group-item-secondary">This is a secondary list group item</li>
+            <li class="list-group-item list-group-item-success">This is a success list group item</li>
+            <li class="list-group-item list-group-item-danger">This is a danger list group item</li>
+            <li class="list-group-item list-group-item-warning">This is a warning list group item</li>
+            <li class="list-group-item list-group-item-info">This is a info list group item</li>
+            <li class="list-group-item list-group-item-light">This is a light list group item</li>
+            <li class="list-group-item list-group-item-dark">This is a dark list group item</li>
 
             <li class="list-group-item list-group-item-primary">This is a primary list group item</li>
             <li class="list-group-item list-group-item-secondary">This is a secondary list group item</li>
@@ -481,6 +515,34 @@
             <li class="list-group-item list-group-item-info">This is a info list group item</li>
             <li class="list-group-item list-group-item-light">This is a light list group item</li>
             <li class="list-group-item list-group-item-dark">This is a dark list group item</li>
+
+            <li class="list-group-item list-group-item-primary">This is a primary list group item</li>
+            <li class="list-group-item list-group-item-secondary">This is a secondary list group item</li>
+            <li class="list-group-item list-group-item-success">This is a success list group item</li>
+            <li class="list-group-item list-group-item-danger">This is a danger list group item</li>
+            <li class="list-group-item list-group-item-warning">This is a warning list group item</li>
+            <li class="list-group-item list-group-item-info">This is a info list group item</li>
+            <li class="list-group-item list-group-item-light">This is a light list group item</li>
+            <li class="list-group-item list-group-item-dark">This is a dark list group item</li>
+
+            <li class="list-group-item list-group-item-primary">This is a primary list group item</li>
+            <li class="list-group-item list-group-item-secondary">This is a secondary list group item</li>
+            <li class="list-group-item list-group-item-success">This is a success list group item</li>
+            <li class="list-group-item list-group-item-danger">This is a danger list group item</li>
+            <li class="list-group-item list-group-item-warning">This is a warning list group item</li>
+            <li class="list-group-item list-group-item-info">This is a info list group item</li>
+            <li class="list-group-item list-group-item-light">This is a light list group item</li>
+            <li class="list-group-item list-group-item-dark">This is a dark list group item</li>
+
+            <li class="list-group-item list-group-item-primary">This is a primary list group item</li>
+            <li class="list-group-item list-group-item-secondary">This is a secondary list group item</li>
+            <li class="list-group-item list-group-item-success">This is a success list group item</li>
+            <li class="list-group-item list-group-item-danger">This is a danger list group item</li>
+            <li class="list-group-item list-group-item-warning">This is a warning list group item</li>
+            <li class="list-group-item list-group-item-info">This is a info list group item</li>
+            <li class="list-group-item list-group-item-light">This is a light list group item</li>
+            <li class="list-group-item list-group-item-dark">This is a dark list group item</li>
+
         </ul>
 
     </div>
@@ -491,50 +553,51 @@
         <ul class="list-group">
             <li class="list-group-item">
                 <div class="col-9 " style=" display: inline-block;margin-right: 5px;">
-                    <input type="text" class="form-control input-sm-10" placeholder="输入名字搜索"></div>
+                    <input type="text" id="wl1" class="form-control input-sm-10" placeholder="搜索员工ID"></div>
                 <div class="col-9 " style=" display: inline-block;margin-right: 5px;">
-                    <input type="text" class="form-control input-sm-10" placeholder="输入职位搜索"></div>
+                    <input type="text" id="wl2" class="form-control input-sm-10" placeholder="搜索原岗位"></div>
                 <div class="col-9 " style=" display: inline-block;margin-right: 5px;">
-                    <input type="text" class="form-control input-sm-10" placeholder="输入岗位搜索"></div><a><i style="margin-left: 10px;" class="fa fa-search"></i></a>
+                    <input type="text" id="wl3" class="form-control input-sm-10" placeholder="搜索原部门"></div>
+                <div class="col-9 " style=" display: inline-block;margin-right: 5px;">
+                    <input type="text" id="wl4" class="form-control input-sm-10" placeholder="搜索现岗位"></div>
+                <div class="col-9 " style=" display: inline-block;margin-right: 5px;">
+                    <input type="text" id="wl5" class="form-control input-sm-10" placeholder="搜索现部门"></div>
+                <a><i style="margin-left: 10px;" class="fa fa-search"></i></a>
             </li>
             <li class="list-group-item">姓名 原岗位 现岗位 </li>
 
 
 
-            <li class="list-group-item list-group-item-primary">This is a primary list group item</li>
-            <li class="list-group-item list-group-item-secondary">This is a secondary list group item</li>
-            <li class="list-group-item list-group-item-success">This is a success list group item</li>
-            <li class="list-group-item list-group-item-danger">This is a danger list group item</li>
-            <li class="list-group-item list-group-item-warning">This is a warning list group item</li>
-            <li class="list-group-item list-group-item-info">This is a info list group item</li>
-            <li class="list-group-item list-group-item-light">This is a light list group item</li>
-            <li class="list-group-item list-group-item-dark">This is a dark list group item</li>
+            <div class="list-group">
+
+                <a href="#" class="list-group-item">Dapibus ac facilisis in</a>
+                <a href="#" class="list-group-item">Morbi leo risus</a>
+                <a href="#" class="list-group-item">Porta ac consectetur ac</a>
+                <a href="#" class="list-group-item">Vestibulum at eros</a>
+            </div>
         </ul>
 
     </div>//////离职
+
 
     <div role="tabpanel" class="tab-pane fade " id="zhuanzhen">
         <ul class="list-group">
             <li class="list-group-item">
                 <div class="col-9 " style=" display: inline-block;margin-right: 5px;">
-                    <input type="text" class="form-control input-sm-10" placeholder="输入名字搜索"></div>
+                    <input d="ww1" type="text" class="form-control input-sm-10" placeholder="输入员工ID搜索"></div>
                 <div class="col-9 " style=" display: inline-block;margin-right: 5px;">
-                    <input type="text" class="form-control input-sm-10" placeholder="输入职位搜索"></div>
+                    <input d="ww2" type="text" class="form-control input-sm-10" placeholder="输入现职位搜索"></div>
                 <div class="col-9 " style=" display: inline-block;margin-right: 5px;">
-                    <input type="text" class="form-control input-sm-10" placeholder="输入岗位搜索"></div><a><i style="margin-left: 10px;" class="fa fa-search"></i></a>
+                    <input d="ww3" type="text" class="form-control input-sm-10" placeholder="输入现岗位搜索"></div><a><i style="margin-left: 10px;" class="fa fa-search"></i></a>
             </li>
-            <li class="list-group-item">姓名 原岗位 现岗位 </li>
 
-
-
-            <li class="list-group-item list-group-item-primary">This is a primary list group item</li>
-            <li class="list-group-item list-group-item-secondary">This is a secondary list group item</li>
-            <li class="list-group-item list-group-item-success">This is a success list group item</li>
-            <li class="list-group-item list-group-item-danger">This is a danger list group item</li>
-            <li class="list-group-item list-group-item-warning">This is a warning list group item</li>
-            <li class="list-group-item list-group-item-info">This is a info list group item</li>
-            <li class="list-group-item list-group-item-light">This is a light list group item</li>
-            <li class="list-group-item list-group-item-dark">This is a dark list group item</li>
+            <div id="qq" class="list-group">
+                <li class="list-group-item">ID 姓名  现岗位 现部门 最近调动时间</li>
+                <a href="#" class="list-group-item">Dapibus ac facilisis in</a>
+                <a href="#" class="list-group-item">Morbi leo risus</a>
+                <a href="#" class="list-group-item">Porta ac consectetur ac</a>
+                <a href="#" class="list-group-item">Vestibulum at eros</a>
+            </div>
         </ul>
 
     </div>
@@ -546,7 +609,7 @@
 
 
     <div role="tabpanel" class="tab-pane fade " id="chaxundiaodong">
-        <ul class="list-group">
+        <ul id="cha" class="list-group">
             <li class="list-group-item">
                 <form class="form-horizontal">
                     <div class="col-9 " style=" display: inline-block;margin-right: 5px;">
@@ -562,18 +625,7 @@
                     <button type="button" class="btn btn-xs btn-green">保存</button>
                 </form>
             </li>
-            <li class="list-group-item">姓名 原岗位 现岗位 </li>
-
-
-
-            <li class="list-group-item list-group-item-primary">This is a primary list group item</li>
-            <li class="list-group-item list-group-item-secondary">This is a secondary list group item</li>
-            <li class="list-group-item list-group-item-success">This is a success list group item</li>
-            <li class="list-group-item list-group-item-danger">This is a danger list group item</li>
-            <li class="list-group-item list-group-item-warning">This is a warning list group item</li>
-            <li class="list-group-item list-group-item-info">This is a info list group item</li>
-            <li class="list-group-item list-group-item-light">This is a light list group item</li>
-            <li class="list-group-item list-group-item-dark">This is a dark list group item</li>
+            <li id="cha2" class="list-group-item"><span style="margin:47px;">ID</span><span style="margin-left:20px; margin-right:20px;">姓名</span> <span style="margin:20px;">原岗位</span><span style="margin:20px;">现岗位</span><span style="margin:20px;">原部门</span><span style="margin:20px;">现部门</span> <span style="margin:20px;">调动日期</span></li>
         </ul>
 
     </div>///调动查询
@@ -767,7 +819,33 @@
     <script src="js/rstpwd.js"></script>
     <script src="../../js/jquery_md5/jquery.md5.js"></script>
     <script src="js/chperinfo.js"></script>
+    <script src="js/getWeight.js"><</script>
+    <script src="js/switchaccount.js"></script>
 
+    <script>
+
+        $(function () {
+            if ($(window).width() >= 700) {//本人的项目是响应式的,但是移动端不显示回到顶部,自己可以去掉
+                $(window).scroll(function () {
+                    if ($(window).scrollTop() <= 200) {
+                        if ($(".back-top").css("display") != "none") {
+                            $(".back-top").slideUp("normal"); //缓慢下降隐藏
+                        }
+                    }
+                    else {
+                        if ($(".back-top").css("display") == "none") {
+                            $(".back-top").slideDown("normal"); //缓慢上升显示
+                        }
+                    }
+                });
+            }
+        });
+        $(".back-top").click(function () {
+            $('html,body').animate({'scrollTop':0},"slow");
+            ; //回到顶部
+        });
+
+    </script>
 </body>
 
 </html>

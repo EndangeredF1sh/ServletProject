@@ -8,7 +8,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class departmentDao extends baseDao{
-    departmentDao(){
+    public departmentDao(){
     }
     public departmentDao(department d){
         addDepartment(d);

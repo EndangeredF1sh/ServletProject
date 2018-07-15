@@ -1,3 +1,4 @@
+html{	background-color: #eee;}
 body{
 	font-size: 150%;
 }
@@ -7,11 +8,7 @@ body{
 }
 #page-wrapper{
 	background-color: #eee;
-	height:750px;
 }
 .right{
-float: right;
-}
-.tag{
-
+	float: right;
 }
