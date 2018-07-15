@@ -54,3 +54,52 @@ $(function () {
         refreshInfo();
     })
 });
+
+$(function () {
+    $("#savebtn").on('click',function () {
+        var old_password = $("#yuan");
+        var new_password = $("#xin");
+        var repeat_password = $("#chong");
+        var old_hash = ($.md5(old_password.val()));
+        var new_hash = ($.md5(new_password.val()));
+        if(new_password.val() != repeat_password.val()){
+            alert("两次密码输入不符！");
+            old_password.val("");
+            new_password.val("");
+            repeat_password.val("");
+            return;
+        }
+        if(old_hash === new_hash){
+            alert("旧密码和新密码不能相同！");
+            old_password.val("");
+            new_password.val("");
+            repeat_password.val("");
+            return;
+        }
+        var json = {
+            EID:EID,
+            old:old_hash,
+            new:new_hash
+        };
+        $.ajax({
+            type:"POST",
+            async:false,
+            url:"../../changePasswordServlet",
+            data:json,
+            success:function(data){
+                var res = JSON.parse(data);
+                var status = res.success;
+                if(status == '1'){
+                    alert('修改密码成功！');
+                    window.location.href = "index.jsp?employee_id=" + EID;
+                }
+                else {
+                    alert("原密码输入错误，请重新修改密码！");
+                    old_password.val("");
+                    new_password.val("");
+                    repeat_password.val("");
+                }
+            }
+        })
+    })
+});

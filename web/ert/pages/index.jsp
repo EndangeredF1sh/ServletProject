@@ -76,7 +76,7 @@
                         <!-- /input-group -->
 
                         <li>
-                            <a href="#yuangongxinxi" data-toggle="tab"><i class="fa fa-edit fa-fw"></i>员工信息</a>
+                            <a href="#yuangongxinxi" data-toggle="tab"><i class="fa fa-table fa-fw"></i>员工信息</a>
                         </li>
                         <li>
                             <a href="#"><i class="fa fa-wrench fa-fw"></i>个人信息<span class="fa arrow"></span></a>
@@ -207,20 +207,371 @@
     </div>
 </div>
 
+
+
+
+
 <div id="page-wrapper" class="tab-content" >
 
-    <div role="tabpanel" class="tab-pane fade " id="zhuanzhen">
-        <div class="list-group">
-            <a href="#" class="list-group-item disabled">
-                Cras justo odio
-            </a>
-            <a href="#" class="list-group-item">Dapibus ac facilisis in</a>
-            <a href="#" class="list-group-item">Morbi leo risus</a>
-            <a href="#" class="list-group-item">Porta ac consectetur ac</a>
-            <a href="#" class="list-group-item">Vestibulum at eros</a>
-        </div>
+    <div role="tabpanel" class="tab-pane fade " id="gongzi">
+        <ul class="list-group">
+            <li class="list-group-item">
+                <div class="col-9 " style=" display: inline-block;margin-right: 5px;">
+                    <input type="text" class="form-control input-sm-10" placeholder="输入名字搜索"></div>
+                <div class="col-9 " style=" display: inline-block;margin-right: 5px;">
+                    <input type="text" class="form-control input-sm-10" placeholder="输入职位搜索"></div>
+                <div class="col-9 " style=" display: inline-block;margin-right: 5px;">
+                    <input type="text" class="form-control input-sm-10" placeholder="输入岗位搜索"></div><a type="submit" ><i style="margin-left: 10px;" class="fa fa-search"></i></a>
+            </li>
+            <li class="list-group-item">姓名 原岗位 现岗位 </li>
+
+
+
+            <li class="list-group-item list-group-item-primary">This is a primary list group item</li>
+            <li class="list-group-item list-group-item-secondary">This is a secondary list group item</li>
+            <li class="list-group-item list-group-item-success">This is a success list group item</li>
+            <li class="list-group-item list-group-item-danger">This is a danger list group item</li>
+            <li class="list-group-item list-group-item-warning">This is a warning list group item</li>
+            <li class="list-group-item list-group-item-info">This is a info list group item</li>
+            <li class="list-group-item list-group-item-light">This is a light list group item</li>
+            <li class="list-group-item list-group-item-dark">This is a dark list group item</li>
+        </ul>
+
+    </div>///工资概况
+
+    <div role="tabpanel" class="tab-pane fade " id="renyuan">
+        <ul class="list-group">
+            <li class="list-group-item">
+                <div class="col-9 " style=" display: inline-block;margin-right: 5px;">
+                    <input type="text" class="form-control input-sm-10" placeholder="输入名字搜索"></div>
+                <div class="col-9 " style=" display: inline-block;margin-right: 5px;">
+                    <input type="text" class="form-control input-sm-10" placeholder="输入职位搜索"></div>
+                <div class="col-9 " style=" display: inline-block;margin-right: 5px;">
+                    <input type="text" class="form-control input-sm-10" placeholder="输入岗位搜索"></div><a><i style="margin-left: 10px;" class="fa fa-search"></i></a>
+            </li>
+            <li class="list-group-item">姓名 原岗位 现岗位 </li>
+
+
+
+            <li class="list-group-item list-group-item-primary">This is a primary list group item</li>
+            <li class="list-group-item list-group-item-secondary">This is a secondary list group item</li>
+            <li class="list-group-item list-group-item-success">This is a success list group item</li>
+            <li class="list-group-item list-group-item-danger">This is a danger list group item</li>
+            <li class="list-group-item list-group-item-warning">This is a warning list group item</li>
+            <li class="list-group-item list-group-item-info">This is a info list group item</li>
+            <li class="list-group-item list-group-item-light">This is a light list group item</li>
+            <li class="list-group-item list-group-item-dark">This is a dark list group item</li>
+        </ul>
+
+    </div>/////人员分布
+
+
+    <div role="tabpanel" class="tab-pane fade " id="gongsi">
+        <ul class="list-group">
+            <li class="list-group-item">
+                <div class="col-9 " style=" display: inline-block;margin-right: 5px;">
+                    <input type="text" class="form-control input-sm-10" placeholder="输入名字搜索"></div>
+                <div class="col-9 " style=" display: inline-block;margin-right: 5px;">
+                    <input type="text" class="form-control input-sm-10" placeholder="输入职位搜索"></div>
+                <div class="col-9 " style=" display: inline-block;margin-right: 5px;">
+                    <input type="text" class="form-control input-sm-10" placeholder="输入岗位搜索"></div><a><i style="margin-left: 10px;" class="fa fa-search"></i></a>
+            </li>
+            <li class="list-group-item">姓名 原岗位 现岗位 </li>
+
+
+
+            <li class="list-group-item list-group-item-primary">This is a primary list group item</li>
+            <li class="list-group-item list-group-item-secondary">This is a secondary list group item</li>
+            <li class="list-group-item list-group-item-success">This is a success list group item</li>
+            <li class="list-group-item list-group-item-danger">This is a danger list group item</li>
+            <li class="list-group-item list-group-item-warning">This is a warning list group item</li>
+            <li class="list-group-item list-group-item-info">This is a info list group item</li>
+            <li class="list-group-item list-group-item-light">This is a light list group item</li>
+            <li class="list-group-item list-group-item-dark">This is a dark list group item</li>
+        </ul>
+
+    </div>/////公司结构
+
+
+    <div role="tabpanel" class="tab-pane fade " id="jitu">
+        <ul class="list-group">
+            <li class="list-group-item">
+                <div class="col-9 " style=" display: inline-block;margin-right: 5px;">
+                    <input type="text" class="form-control input-sm-10" placeholder="输入名字搜索"></div>
+                <div class="col-9 " style=" display: inline-block;margin-right: 5px;">
+                    <input type="text" class="form-control input-sm-10" placeholder="输入职位搜索"></div>
+                <div class="col-9 " style=" display: inline-block;margin-right: 5px;">
+                    <input type="text" class="form-control input-sm-10" placeholder="输入岗位搜索"></div><a><i style="margin-left: 10px;" class="fa fa-search"></i></a>
+            </li>
+            <li class="list-group-item">姓名 原岗位 现岗位 </li>
+
+
+
+            <li class="list-group-item list-group-item-primary">This is a primary list group item</li>
+            <li class="list-group-item list-group-item-secondary">This is a secondary list group item</li>
+            <li class="list-group-item list-group-item-success">This is a success list group item</li>
+            <li class="list-group-item list-group-item-danger">This is a danger list group item</li>
+            <li class="list-group-item list-group-item-warning">This is a warning list group item</li>
+            <li class="list-group-item list-group-item-info">This is a info list group item</li>
+            <li class="list-group-item list-group-item-light">This is a light list group item</li>
+            <li class="list-group-item list-group-item-dark">This is a dark list group item</li>
+        </ul>
+
+    </div>///////季图
+
+
+    <div role="tabpanel" class="tab-pane fade " id="yuetu">
+        <ul class="list-group">
+            <li class="list-group-item">
+                <div class="col-9 " style=" display: inline-block;margin-right: 5px;">
+                    <input type="text" class="form-control input-sm-10" placeholder="输入名字搜索"></div>
+                <div class="col-9 " style=" display: inline-block;margin-right: 5px;">
+                    <input type="text" class="form-control input-sm-10" placeholder="输入职位搜索"></div>
+                <div class="col-9 " style=" display: inline-block;margin-right: 5px;">
+                    <input type="text" class="form-control input-sm-10" placeholder="输入岗位搜索"></div><a><i style="margin-left: 10px;" class="fa fa-search"></i></a>
+            </li>
+            <li class="list-group-item">姓名 原岗位 现岗位 </li>
+
+
+
+            <li class="list-group-item list-group-item-primary">This is a primary list group item</li>
+            <li class="list-group-item list-group-item-secondary">This is a secondary list group item</li>
+            <li class="list-group-item list-group-item-success">This is a success list group item</li>
+            <li class="list-group-item list-group-item-danger">This is a danger list group item</li>
+            <li class="list-group-item list-group-item-warning">This is a warning list group item</li>
+            <li class="list-group-item list-group-item-info">This is a info list group item</li>
+            <li class="list-group-item list-group-item-light">This is a light list group item</li>
+            <li class="list-group-item list-group-item-dark">This is a dark list group item</li>
+        </ul>
+
+    </div>/////月图
+
+
+
+    <div role="tabpanel" class="tab-pane fade " id="nian">
+        <ul class="list-group">
+            <li class="list-group-item">
+                <div class="col-9 " style=" display: inline-block;margin-right: 5px;">
+                    <input type="text" class="form-control input-sm-10" placeholder="输入名字搜索"></div>
+                <div class="col-9 " style=" display: inline-block;margin-right: 5px;">
+                    <input type="text" class="form-control input-sm-10" placeholder="输入职位搜索"></div>
+                <div class="col-9 " style=" display: inline-block;margin-right: 5px;">
+                    <input type="text" class="form-control input-sm-10" placeholder="输入岗位搜索"></div><a><i style="margin-left: 10px;" class="fa fa-search"></i></a>
+            </li>
+            <li class="list-group-item">姓名 原岗位 现岗位 </li>
+
+
+
+            <li class="list-group-item list-group-item-primary">This is a primary list group item</li>
+            <li class="list-group-item list-group-item-secondary">This is a secondary list group item</li>
+            <li class="list-group-item list-group-item-success">This is a success list group item</li>
+            <li class="list-group-item list-group-item-danger">This is a danger list group item</li>
+            <li class="list-group-item list-group-item-warning">This is a warning list group item</li>
+            <li class="list-group-item list-group-item-info">This is a info list group item</li>
+            <li class="list-group-item list-group-item-light">This is a light list group item</li>
+            <li class="list-group-item list-group-item-dark">This is a dark list group item</li>
+        </ul>
+
+    </div>/////年图
+
+
+
+    <div role="tabpanel" class="tab-pane fade " id="jidubaobiao">
+        <ul class="list-group">
+            <li class="list-group-item">
+                <div class="col-9 " style=" display: inline-block;margin-right: 5px;">
+                    <input type="text" class="form-control input-sm-10" placeholder="输入名字搜索"></div>
+                <div class="col-9 " style=" display: inline-block;margin-right: 5px;">
+                    <input type="text" class="form-control input-sm-10" placeholder="输入职位搜索"></div>
+                <div class="col-9 " style=" display: inline-block;margin-right: 5px;">
+                    <input type="text" class="form-control input-sm-10" placeholder="输入岗位搜索"></div><a><i style="margin-left: 10px;" class="fa fa-search"></i></a>
+            </li>
+            <li class="list-group-item">姓名 原岗位 现岗位 </li>
+
+
+
+            <li class="list-group-item list-group-item-primary">This is a primary list group item</li>
+            <li class="list-group-item list-group-item-secondary">This is a secondary list group item</li>
+            <li class="list-group-item list-group-item-success">This is a success list group item</li>
+            <li class="list-group-item list-group-item-danger">This is a danger list group item</li>
+            <li class="list-group-item list-group-item-warning">This is a warning list group item</li>
+            <li class="list-group-item list-group-item-info">This is a info list group item</li>
+            <li class="list-group-item list-group-item-light">This is a light list group item</li>
+            <li class="list-group-item list-group-item-dark">This is a dark list group item</li>
+        </ul>
+
+    </div>/////季表
+
+
+    <div role="tabpanel" class="tab-pane fade " id="yuedubaobiao">
+        <ul class="list-group">
+            <li class="list-group-item">
+                <div class="col-9 " style=" display: inline-block;margin-right: 5px;">
+                    <input type="text" class="form-control input-sm-10" placeholder="输入名字搜索"></div>
+                <div class="col-9 " style=" display: inline-block;margin-right: 5px;">
+                    <input type="text" class="form-control input-sm-10" placeholder="输入职位搜索"></div>
+                <div class="col-9 " style=" display: inline-block;margin-right: 5px;">
+                    <input type="text" class="form-control input-sm-10" placeholder="输入岗位搜索"></div><a><i style="margin-left: 10px;" class="fa fa-search"></i></a>
+            </li>
+            <li class="list-group-item">姓名 原岗位 现岗位 </li>
+
+
+
+            <li class="list-group-item list-group-item-primary">This is a primary list group item</li>
+            <li class="list-group-item list-group-item-secondary">This is a secondary list group item</li>
+            <li class="list-group-item list-group-item-success">This is a success list group item</li>
+            <li class="list-group-item list-group-item-danger">This is a danger list group item</li>
+            <li class="list-group-item list-group-item-warning">This is a warning list group item</li>
+            <li class="list-group-item list-group-item-info">This is a info list group item</li>
+            <li class="list-group-item list-group-item-light">This is a light list group item</li>
+            <li class="list-group-item list-group-item-dark">This is a dark list group item</li>
+        </ul>
+
+    </div>//////月表
+
+
+
+    <div role="tabpanel" class="tab-pane fade " id="niandubaobiao">
+        <ul class="list-group">
+            <li class="list-group-item">
+                <div class="col-9 " style=" display: inline-block;margin-right: 5px;">
+                    <input type="text" class="form-control input-sm-10" placeholder="输入名字搜索"></div>
+                <div class="col-9 " style=" display: inline-block;margin-right: 5px;">
+                    <input type="text" class="form-control input-sm-10" placeholder="输入职位搜索"></div>
+                <div class="col-9 " style=" display: inline-block;margin-right: 5px;">
+                    <input type="text" class="form-control input-sm-10" placeholder="输入岗位搜索"></div><a><i style="margin-left: 10px;" class="fa fa-search"></i></a>
+            </li>
+            <li class="list-group-item">姓名 原岗位 现岗位 </li>
+
+
+
+            <li class="list-group-item list-group-item-primary">This is a primary list group item</li>
+            <li class="list-group-item list-group-item-secondary">This is a secondary list group item</li>
+            <li class="list-group-item list-group-item-success">This is a success list group item</li>
+            <li class="list-group-item list-group-item-danger">This is a danger list group item</li>
+            <li class="list-group-item list-group-item-warning">This is a warning list group item</li>
+            <li class="list-group-item list-group-item-info">This is a info list group item</li>
+            <li class="list-group-item list-group-item-light">This is a light list group item</li>
+            <li class="list-group-item list-group-item-dark">This is a dark list group item</li>
+        </ul>
+
+    </div>////年表
+
+
+    <div role="tabpanel" class="tab-pane fade " id="zhigang">
+        <ul class="list-group">
+            <li class="list-group-item">
+                <div class="col-9 " style=" display: inline-block;margin-right: 5px;">
+                    <input type="text" class="form-control input-sm-10" placeholder="输入名字搜索"></div>
+                <div class="col-9 " style=" display: inline-block;margin-right: 5px;">
+                    <input type="text" class="form-control input-sm-10" placeholder="输入职位搜索"></div>
+                <div class="col-9 " style=" display: inline-block;margin-right: 5px;">
+                    <input type="text" class="form-control input-sm-10" placeholder="输入岗位搜索"></div><a><i style="margin-left: 10px;" class="fa fa-search"></i></a>
+            </li>
+            <li class="list-group-item">姓名 原岗位 现岗位 </li>
+
+
+
+            <li class="list-group-item list-group-item-primary">This is a primary list group item</li>
+            <li class="list-group-item list-group-item-secondary">This is a secondary list group item</li>
+            <li class="list-group-item list-group-item-success">This is a success list group item</li>
+            <li class="list-group-item list-group-item-danger">This is a danger list group item</li>
+            <li class="list-group-item list-group-item-warning">This is a warning list group item</li>
+            <li class="list-group-item list-group-item-info">This is a info list group item</li>
+            <li class="list-group-item list-group-item-light">This is a light list group item</li>
+            <li class="list-group-item list-group-item-dark">This is a dark list group item</li>
+        </ul>
 
     </div>
+    /////值岗
+
+
+    <div role="tabpanel" class="tab-pane fade " id="lizhi">
+        <ul class="list-group">
+            <li class="list-group-item">
+                <div class="col-9 " style=" display: inline-block;margin-right: 5px;">
+                    <input type="text" class="form-control input-sm-10" placeholder="输入名字搜索"></div>
+                <div class="col-9 " style=" display: inline-block;margin-right: 5px;">
+                    <input type="text" class="form-control input-sm-10" placeholder="输入职位搜索"></div>
+                <div class="col-9 " style=" display: inline-block;margin-right: 5px;">
+                    <input type="text" class="form-control input-sm-10" placeholder="输入岗位搜索"></div><a><i style="margin-left: 10px;" class="fa fa-search"></i></a>
+            </li>
+            <li class="list-group-item">姓名 原岗位 现岗位 </li>
+
+
+
+            <li class="list-group-item list-group-item-primary">This is a primary list group item</li>
+            <li class="list-group-item list-group-item-secondary">This is a secondary list group item</li>
+            <li class="list-group-item list-group-item-success">This is a success list group item</li>
+            <li class="list-group-item list-group-item-danger">This is a danger list group item</li>
+            <li class="list-group-item list-group-item-warning">This is a warning list group item</li>
+            <li class="list-group-item list-group-item-info">This is a info list group item</li>
+            <li class="list-group-item list-group-item-light">This is a light list group item</li>
+            <li class="list-group-item list-group-item-dark">This is a dark list group item</li>
+        </ul>
+
+    </div>//////离职
+
+    <div role="tabpanel" class="tab-pane fade " id="zhuanzhen">
+        <ul class="list-group">
+            <li class="list-group-item">
+                <div class="col-9 " style=" display: inline-block;margin-right: 5px;">
+                    <input type="text" class="form-control input-sm-10" placeholder="输入名字搜索"></div>
+                <div class="col-9 " style=" display: inline-block;margin-right: 5px;">
+                    <input type="text" class="form-control input-sm-10" placeholder="输入职位搜索"></div>
+                <div class="col-9 " style=" display: inline-block;margin-right: 5px;">
+                    <input type="text" class="form-control input-sm-10" placeholder="输入岗位搜索"></div><a><i style="margin-left: 10px;" class="fa fa-search"></i></a>
+            </li>
+            <li class="list-group-item">姓名 原岗位 现岗位 </li>
+
+
+
+            <li class="list-group-item list-group-item-primary">This is a primary list group item</li>
+            <li class="list-group-item list-group-item-secondary">This is a secondary list group item</li>
+            <li class="list-group-item list-group-item-success">This is a success list group item</li>
+            <li class="list-group-item list-group-item-danger">This is a danger list group item</li>
+            <li class="list-group-item list-group-item-warning">This is a warning list group item</li>
+            <li class="list-group-item list-group-item-info">This is a info list group item</li>
+            <li class="list-group-item list-group-item-light">This is a light list group item</li>
+            <li class="list-group-item list-group-item-dark">This is a dark list group item</li>
+        </ul>
+
+    </div>
+    ///转正
+
+
+
+
+
+
+    <div role="tabpanel" class="tab-pane fade " id="chaxundiaodong">
+        <ul class="list-group">
+            <li class="list-group-item">
+                <form class="form-horizontal">
+                    <div class="col-9 " style=" display: inline-block;margin-right: 5px;">
+                        <input type="text" id="we1" class="form-control input-sm-10" placeholder="输入名字搜索"></div>
+                    <div class="col-9 " style=" display: inline-block;margin-right: 5px;">
+                        <input type="text" id="we2" class="form-control input-sm-10" placeholder="输入职位搜索"></div>
+                    <div class="col-9 " style=" display: inline-block;margin-right: 5px;">
+                        <input type="text" id="we3" class="form-control input-sm-10" placeholder="输入岗位搜索"></div>
+                    <button type="button" class="btn btn-xs btn-green">保存</button>
+                </form>
+            </li>
+            <li class="list-group-item">姓名 原岗位 现岗位 </li>
+
+
+
+            <li class="list-group-item list-group-item-primary">This is a primary list group item</li>
+            <li class="list-group-item list-group-item-secondary">This is a secondary list group item</li>
+            <li class="list-group-item list-group-item-success">This is a success list group item</li>
+            <li class="list-group-item list-group-item-danger">This is a danger list group item</li>
+            <li class="list-group-item list-group-item-warning">This is a warning list group item</li>
+            <li class="list-group-item list-group-item-info">This is a info list group item</li>
+            <li class="list-group-item list-group-item-light">This is a light list group item</li>
+            <li class="list-group-item list-group-item-dark">This is a dark list group item</li>
+        </ul>
+
+    </div>///调动查询
 
 
 
@@ -234,26 +585,23 @@
                 <div class="form-group">
                     <label for="sKnot" class="col-xs-4 control-label">原密码：</label>
                     <div class="col-xs-5">
-                        <input type="" id="yuan" class="form-control input-sm duiqi" id="sKnot" placeholder="" style="margin-top: 7px;">
+                        <input type="password" id="yuan" class="form-control input-sm duiqi" id="sKnot" placeholder="" style="margin-top: 7px;">
                     </div>
                 </div>
                 <div class="form-group">
                     <label for="sKnot" class="col-xs-4 control-label">新密码：</label>
                     <div class="col-xs-5">
-                        <input type="" id="xin" class="form-control input-sm duiqi" id="sKnot" placeholder="" style="margin-top: 7px;">
+                        <input type="password" id="xin" class="form-control input-sm duiqi" id="sKnot" placeholder="" style="margin-top: 7px;">
                     </div>
                 </div>
                 <div class="form-group">
                     <label for="sKnot" class="col-xs-4 control-label">重复密码：</label>
                     <div class="col-xs-5">
-                        <input type="" id="chong" class="form-control input-sm duiqi" id="sKnot" placeholder="" style="margin-top: 7px;">
+                        <input type="password" id="chong" class="form-control input-sm duiqi" id="sKnot" placeholder="" style="margin-top: 7px;">
                     </div>
                 </div>
                 <div class="form-group text-right">
-                    <div class="col-xs-offset-4 col-xs-5" style="margin-left: 169px;">
-                        <button type="reset" class="btn btn-xs btn-white">取 消</button>
-                        <button type="submit" class="btn btn-xs btn-green">保存</button>
-                    </div>
+                    <button id="savebtn" class="btn btn-success" type="button" style="margin-top: 10px;padding-left: 50px;padding-right: 50px;margin-right: 50px;margin-left: 22px;">确定修改</button>
                 </div>
             </form>
         </div>
@@ -412,7 +760,9 @@
     <script src="../dist/js/sb-admin-2.js"></script>
     <script src="js/dologin.js"></script>
     <script src="js/rstpwd.js"></script>
+    <script src="../../js/jquery_md5/jquery.md5.js"></script>
     <script src="js/chperinfo.js"></script>
+
 </body>
 
 </html>

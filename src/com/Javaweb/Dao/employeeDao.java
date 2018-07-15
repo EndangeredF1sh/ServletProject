@@ -104,4 +104,26 @@ public class employeeDao extends baseDao{
         params.add(e.getId());
         return sqlInsertUtil(sql,params);
     }
+
+    public boolean setNewPassword(String EID, String old_hash, String new_hash) throws SQLException {
+        String sql = "select password_hash from ert_employees where id = ?";
+        List<Object> list = new ArrayList<>();
+        list.add(EID);
+        ResultSet rs = sqlSelectUtil(sql,list);
+        String current_hash;
+        if(rs.next()){
+            current_hash = rs.getString("password_hash");
+            if(!old_hash.equals(current_hash)){
+                return false;
+            }
+        }
+        else{
+            return false;
+        }
+        sql = "update ert_employees set password_hash = ? where id = ?";
+        list.clear();
+        list.add(new_hash);
+        list.add(EID);
+        return sqlInsertUtil(sql,list);
+    }
 }
