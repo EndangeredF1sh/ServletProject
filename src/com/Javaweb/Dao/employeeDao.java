@@ -1,6 +1,8 @@
 package com.Javaweb.Dao;
 
 import com.Javaweb.Object.employee;
+import org.json.simple.JSONArray;
+import org.json.simple.JSONObject;
 
 import java.sql.ResultSet;
 import java.sql.SQLException;
@@ -127,4 +129,35 @@ public class employeeDao extends baseDao{
         return sqlInsertUtil(sql,list);
     }
 
+    public String getPersonDistribution() throws SQLException {
+        String sql = "select e.department_name, x.count from (select department_id i , count(department_id) count from ert_employees group by ert_employees.department_id) x, ert_departments e where x.i = e.department_id";
+        pstat = conn.prepareStatement(sql);
+        ResultSet rs = pstat.executeQuery();
+        JSONArray arr = new JSONArray();
+        while(rs.next()){
+            JSONObject o = new JSONObject();
+            o.put("value",Integer.parseInt(rs.getString("count")));
+            o.put("name",rs.getString("department_name"));
+            arr.add(o);
+        }
+        String JSON = arr.toJSONString();
+        return JSON;
+    }
+
+    public String getSalaryProfile() throws SQLException {
+        String sql = "select case when (salary > 0 and salary <=5000) then '0-5000' when (salary > 5000 and salary <=10000) then '5000-10000' when (salary > 10000 and salary <=15000 ) then '10000-15000' when (salary <= 20000 and salary > 15000) then '15000-20000' else '20000+' end 'salary_layer',count(*) emps from ert_employees group by case when (salary > 0 and salary <=5000) then '0-5000' when (salary > 5000 and salary <=10000) then '5000-10000' when (salary > 10000 and salary <=15000 ) then '10000-15000' when (salary <= 20000 and salary > 15000) then '15000-20000' else '20000+' end";
+        pstat = conn.prepareStatement(sql);
+        ResultSet rs = pstat.executeQuery();
+        JSONArray arr = new JSONArray();
+        while(rs.next()){
+            JSONObject o = new JSONObject();
+            o.put("value",Integer.parseInt(rs.getString("emps")));
+            o.put("name",rs.getString("salary_layer"));
+            arr.add(o);
+        }
+        String JSON = arr.toJSONString();
+        System.out.println(JSON);
+        return JSON;
+
+    }
 }

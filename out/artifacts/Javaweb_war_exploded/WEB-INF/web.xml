@@ -54,6 +54,30 @@
         <url-pattern>/DeptWeightServlet</url-pattern>
     </servlet-mapping>
 
+    <servlet>
+        <!-- 类名 -->
+        <servlet-name>personDistributionServlet</servlet-name>
+        <!-- 所在的包 -->
+        <servlet-class>com.Javaweb.Servlet.personDistributionServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>personDistributionServlet</servlet-name>
+        <!-- 访问的网址 -->
+        <url-pattern>/personDistributionServlet</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <!-- 类名 -->
+        <servlet-name>salaryProfileServlet</servlet-name>
+        <!-- 所在的包 -->
+        <servlet-class>com.Javaweb.Servlet.salaryProfileServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>salaryProfileServlet</servlet-name>
+        <!-- 访问的网址 -->
+        <url-pattern>/salaryProfileServlet</url-pattern>
+    </servlet-mapping>
+
     <session-config>
         <session-timeout>60</session-timeout>
     </session-config>

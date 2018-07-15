@@ -7,205 +7,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="42af200a-a039-40ea-a4b5-5a87070edfde" name="Default" comment="new jsp and backend code">
-      <change afterPath="$PROJECT_DIR$/src/com/Javaweb/Object/employee.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/com/Javaweb/Dao/employeeDaoTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Javaweb.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Javaweb.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/Javaweb_war_exploded/WEB-INF/classes/CharacterEncodingFilter.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/Javaweb_war_exploded/WEB-INF/classes/SessionTrack.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/Javaweb_war_exploded/WEB-INF/classes/com/Javaweb/Servlet/SessionTrack.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/Javaweb_war_exploded/WEB-INF/classes/employee.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/Javaweb_war_exploded/WEB-INF/classes/employeeDao.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/Javaweb_war_exploded/WEB-INF/classes/employeeDaoTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/Javaweb_war_exploded/WEB-INF/classes/loginServlet.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/Javaweb_war_exploded/WEB-INF/classes/manageServlet.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/Javaweb_war_exploded/WEB-INF/classes/md5Utils.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/Javaweb_war_exploded/WEB-INF/classes/resultSetToJson.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/Javaweb_war_exploded/WEB-INF/classes/resultSetToJsonTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Javaweb_war_exploded/WEB-INF/classes/com/Javaweb/Dao/employeeDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/Javaweb_war_exploded/WEB-INF/classes/com/Javaweb/Dao/employeeDao.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Javaweb_war_exploded/WEB-INF/classes/com/Javaweb/Dao/employeeDaoTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/Javaweb_war_exploded/WEB-INF/classes/com/Javaweb/Dao/employeeDaoTest.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/artifacts/Javaweb_war_exploded/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/Javaweb_war_exploded/WEB-INF/web.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/Javaweb_war_exploded/css/component.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/Javaweb_war_exploded/css/demo.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/Javaweb_war_exploded/css/normalize.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/Javaweb_war_exploded/ert/css/bootstrap-theme.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/Javaweb_war_exploded/ert/css/bootstrap.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/Javaweb_war_exploded/ert/css/bootstrap.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/Javaweb_war_exploded/ert/css/common.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/Javaweb_war_exploded/ert/css/commonCopy.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/Javaweb_war_exploded/ert/css/flat-ui.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/Javaweb_war_exploded/ert/css/slide.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/Javaweb_war_exploded/ert/fonts/glyphicons-halflings-regular.eot" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/Javaweb_war_exploded/ert/fonts/glyphicons-halflings-regular.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/Javaweb_war_exploded/ert/fonts/glyphicons-halflings-regular.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/Javaweb_war_exploded/ert/fonts/glyphicons-halflings-regular.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/Javaweb_war_exploded/ert/fonts/glyphicons-halflings-regular.woff2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/Javaweb_war_exploded/ert/fonts/lato/lato-black.eot" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/Javaweb_war_exploded/ert/fonts/lato/lato-black.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/Javaweb_war_exploded/ert/fonts/lato/lato-black.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/Javaweb_war_exploded/ert/fonts/lato/lato-black.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/Javaweb_war_exploded/ert/fonts/lato/lato-bold.eot" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/Javaweb_war_exploded/ert/fonts/lato/lato-bold.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/Javaweb_war_exploded/ert/fonts/lato/lato-bold.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/Javaweb_war_exploded/ert/fonts/lato/lato-bold.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/Javaweb_war_exploded/ert/fonts/lato/lato-bolditalic.eot" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/Javaweb_war_exploded/ert/fonts/lato/lato-bolditalic.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/Javaweb_war_exploded/ert/fonts/lato/lato-bolditalic.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/Javaweb_war_exploded/ert/fonts/lato/lato-bolditalic.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/Javaweb_war_exploded/ert/fonts/lato/lato-italic.eot" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/Javaweb_war_exploded/ert/fonts/lato/lato-italic.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/Javaweb_war_exploded/ert/fonts/lato/lato-italic.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/Javaweb_war_exploded/ert/fonts/lato/lato-italic.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/Javaweb_war_exploded/ert/fonts/lato/lato-light.eot" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/Javaweb_war_exploded/ert/fonts/lato/lato-light.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/Javaweb_war_exploded/ert/fonts/lato/lato-light.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/Javaweb_war_exploded/ert/fonts/lato/lato-light.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/Javaweb_war_exploded/ert/fonts/lato/lato-regular.eot" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/Javaweb_war_exploded/ert/fonts/lato/lato-regular.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/Javaweb_war_exploded/ert/fonts/lato/lato-regular.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/Javaweb_war_exploded/ert/fonts/lato/lato-regular.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/Javaweb_war_exploded/ert/images/Thumbs.db" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/Javaweb_war_exploded/ert/images/captchaCode.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/Javaweb_war_exploded/ert/images/circle.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/Javaweb_war_exploded/ert/images/icon_card.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/Javaweb_war_exploded/ert/images/icon_card_grey.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/Javaweb_war_exploded/ert/images/icon_change.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/Javaweb_war_exploded/ert/images/icon_change_grey.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/Javaweb_war_exploded/ert/images/icon_char.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/Javaweb_war_exploded/ert/images/icon_char_grey.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/Javaweb_war_exploded/ert/images/icon_chara.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/Javaweb_war_exploded/ert/images/icon_chara_grey.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/Javaweb_war_exploded/ert/images/icon_house.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/Javaweb_war_exploded/ert/images/icon_house_grey.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/Javaweb_war_exploded/ert/images/icon_rule.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/Javaweb_war_exploded/ert/images/icon_rule_grey.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/Javaweb_war_exploded/ert/images/icon_source.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/Javaweb_war_exploded/ert/images/icon_source_grey.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/Javaweb_war_exploded/ert/images/icon_user.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/Javaweb_war_exploded/ert/images/icon_user_grey.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/Javaweb_war_exploded/ert/images/logo.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/Javaweb_war_exploded/ert/images/logo1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/Javaweb_war_exploded/ert/images/progress02.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/Javaweb_war_exploded/ert/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/Javaweb_war_exploded/ert/index.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/Javaweb_war_exploded/ert/js/bootstrap.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/Javaweb_war_exploded/ert/js/html5.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/Javaweb_war_exploded/ert/js/jquery-ui.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/Javaweb_war_exploded/ert/js/jquery.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/Javaweb_war_exploded/ert/js/jquery.nouislider.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/Javaweb_war_exploded/ert/js/jquery.nouislider.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/Javaweb_war_exploded/ert/js/respond.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/Javaweb_war_exploded/img/demo-1-bg.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/Javaweb_war_exploded/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/Javaweb_war_exploded/index.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/Javaweb_war_exploded/js/EasePack.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/Javaweb_war_exploded/js/TweenLite.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/Javaweb_war_exploded/js/demo-1.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/Javaweb_war_exploded/js/html5.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/Javaweb_war_exploded/js/rAF.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/CharacterEncodingFilter.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/SessionTrack.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/Javaweb/Dao/departmentDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/Javaweb/Dao/departmentDao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/Javaweb/Servlet/SessionTrack.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/Javaweb/Servlet/changePersonalInfoServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/Javaweb/Servlet/changePersonalInfoServlet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/Javaweb/Servlet/changeQueryServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/Javaweb/Servlet/changeQueryServlet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/Javaweb/Utils/resultSetToJson.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/Javaweb/Utils/resultSetToJson.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/employee.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/loginServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/Javaweb/Servlet/loginServlet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/manageServlet.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/md5Utils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/Javaweb/Utils/md5Utils.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/resultSetToJson.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/employeeDaoTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/resultSetToJsonTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/Javaweb/Dao/employeeDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/Javaweb/Dao/employeeDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/com/Javaweb/Dao/employeeDaoTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/com/Javaweb/Dao/employeeDaoTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/web/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/web.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/classes/CharacterEncodingFilter.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/classes/SessionTrack.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/classes/com/Javaweb/Dao/departmentDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/web/classes/com/Javaweb/Dao/departmentDao.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/classes/com/Javaweb/Servlet/SessionTrack.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/classes/com/Javaweb/Servlet/changePersonalInfoServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/web/classes/com/Javaweb/Servlet/changePersonalInfoServlet.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/classes/com/Javaweb/Servlet/changeQueryServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/web/classes/com/Javaweb/Servlet/changeQueryServlet.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/classes/com/Javaweb/Utils/resultSetToJson.class" beforeDir="false" afterPath="$PROJECT_DIR$/web/classes/com/Javaweb/Utils/resultSetToJson.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/classes/employee.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/classes/employeeDao.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/classes/employeeDaoTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/classes/loginServlet.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/classes/manageServlet.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/classes/md5Utils.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/classes/resultSetToJson.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/classes/resultSetToJsonTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/css/component.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/css/demo.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/css/normalize.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/ert/css/bootstrap-theme.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/ert/css/bootstrap.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/ert/css/bootstrap.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/ert/css/common.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/ert/css/commonCopy.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/ert/css/flat-ui.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/ert/css/slide.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/ert/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/web/ert/css/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/ert/fonts/glyphicons-halflings-regular.eot" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/ert/fonts/glyphicons-halflings-regular.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/ert/fonts/glyphicons-halflings-regular.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/ert/fonts/glyphicons-halflings-regular.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/ert/fonts/glyphicons-halflings-regular.woff2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/ert/fonts/lato/lato-black.eot" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/ert/fonts/lato/lato-black.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/ert/fonts/lato/lato-black.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/ert/fonts/lato/lato-black.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/ert/fonts/lato/lato-bold.eot" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/ert/fonts/lato/lato-bold.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/ert/fonts/lato/lato-bold.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/ert/fonts/lato/lato-bold.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/ert/fonts/lato/lato-bolditalic.eot" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/ert/fonts/lato/lato-bolditalic.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/ert/fonts/lato/lato-bolditalic.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/ert/fonts/lato/lato-bolditalic.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/ert/fonts/lato/lato-italic.eot" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/ert/fonts/lato/lato-italic.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/ert/fonts/lato/lato-italic.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/ert/fonts/lato/lato-italic.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/ert/fonts/lato/lato-light.eot" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/ert/fonts/lato/lato-light.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/ert/fonts/lato/lato-light.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/ert/fonts/lato/lato-light.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/ert/fonts/lato/lato-regular.eot" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/ert/fonts/lato/lato-regular.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/ert/fonts/lato/lato-regular.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/ert/fonts/lato/lato-regular.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/ert/images/Thumbs.db" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/ert/images/captchaCode.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/ert/images/circle.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/ert/images/icon_card.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/ert/images/icon_card_grey.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/ert/images/icon_change.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/ert/images/icon_change_grey.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/ert/images/icon_char.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/ert/images/icon_char_grey.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/ert/images/icon_chara.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/ert/images/icon_chara_grey.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/ert/images/icon_house.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/ert/images/icon_house_grey.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/ert/images/icon_rule.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/ert/images/icon_rule_grey.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/ert/images/icon_source.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/ert/images/icon_source_grey.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/ert/images/icon_user.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/ert/images/icon_user_grey.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/ert/images/logo.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/ert/images/logo1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/ert/images/progress02.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/ert/js/bootstrap.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/ert/js/html5.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/ert/js/jquery-ui.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/ert/js/jquery.nouislider.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/ert/js/jquery.nouislider.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/ert/js/respond.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/classes/com/Javaweb/Dao/employeeDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/web/classes/com/Javaweb/Dao/employeeDao.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/classes/com/Javaweb/Dao/employeeDaoTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/web/classes/com/Javaweb/Dao/employeeDaoTest.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/web/ert/pages/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/ert/pages/index.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/ert/pages/js/chperinfo.js" beforeDir="false" afterPath="$PROJECT_DIR$/web/ert/pages/js/chperinfo.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/ert/pages/js/rstpwd.js" beforeDir="false" afterPath="$PROJECT_DIR$/web/ert/pages/js/rstpwd.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/img/demo-1-bg.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/js/EasePack.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/js/TweenLite.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/js/demo-1.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/js/html5.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/js/rAF.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/ert/pages/js/getWeight.js" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -234,169 +46,44 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="DeptWeightServlet.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/com/Javaweb/Servlet/DeptWeightServlet.java">
+      <file leaf-file-name="personDistributionServlet.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/Javaweb/Servlet/personDistributionServlet.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="198">
-              <caret line="12" column="16" selection-start-line="12" selection-start-column="16" selection-end-line="12" selection-end-column="16" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="resultSetToJson.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/Javaweb/Utils/resultSetToJson.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-386">
-              <caret line="2" column="32" selection-start-line="2" selection-start-column="23" selection-end-line="2" selection-end-column="32" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.jsp" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web/ert/pages/index.jsp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="341">
-              <caret line="821" column="35" selection-start-line="821" selection-start-column="35" selection-end-line="821" selection-end-column="35" />
+            <state relative-caret-position="220">
+              <caret line="18" selection-start-line="18" selection-end-line="24" selection-end-column="9" />
               <folding>
-                <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#nav#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#a#0;n#div#0;n#nav#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#button#1;n#div#0;n#nav#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#li#0;n#ul#0;n#div#0;n#div#0;n#div#0;n#nav#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="e#9189#9196#1#HTML" expanded="true" />
-                <element signature="n#style#0;n#div#0;n#li#0;n#ul#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#1;n#li#0;n#ul#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#2;n#li#0;n#ul#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#i#0;n#a#0;n#li#0;n#ul#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#span#0;n#li#1;n#ul#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#span#1;n#li#1;n#ul#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#span#2;n#li#1;n#ul#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#span#3;n#li#1;n#ul#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#span#4;n#li#1;n#ul#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#span#5;n#li#1;n#ul#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#span#6;n#li#1;n#ul#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#0;n#li#0;n#ul#0;n#div#1;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#1;n#li#0;n#ul#0;n#div#1;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#2;n#li#0;n#ul#0;n#div#1;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#i#0;n#a#0;n#li#0;n#ul#0;n#div#1;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#0;n#li#0;n#ul#0;n#div#2;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#1;n#li#0;n#ul#0;n#div#2;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#2;n#li#0;n#ul#0;n#div#2;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#i#0;n#a#0;n#li#0;n#ul#0;n#div#2;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#0;n#li#0;n#ul#0;n#div#3;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#1;n#li#0;n#ul#0;n#div#3;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#2;n#li#0;n#ul#0;n#div#3;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#i#0;n#a#0;n#li#0;n#ul#0;n#div#3;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#0;n#li#0;n#ul#0;n#div#4;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#1;n#li#0;n#ul#0;n#div#4;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#2;n#li#0;n#ul#0;n#div#4;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#i#0;n#a#0;n#li#0;n#ul#0;n#div#4;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#0;n#li#0;n#ul#0;n#div#5;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#1;n#li#0;n#ul#0;n#div#5;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#2;n#li#0;n#ul#0;n#div#5;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#i#0;n#a#0;n#li#0;n#ul#0;n#div#5;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#0;n#li#0;n#ul#0;n#div#6;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#1;n#li#0;n#ul#0;n#div#6;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#2;n#li#0;n#ul#0;n#div#6;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#i#0;n#a#0;n#li#0;n#ul#0;n#div#6;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#0;n#li#0;n#ul#0;n#div#7;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#1;n#li#0;n#ul#0;n#div#7;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#2;n#li#0;n#ul#0;n#div#7;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#i#0;n#a#0;n#li#0;n#ul#0;n#div#7;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#0;n#li#0;n#ul#0;n#div#8;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#1;n#li#0;n#ul#0;n#div#8;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#2;n#li#0;n#ul#0;n#div#8;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#i#0;n#a#0;n#li#0;n#ul#0;n#div#8;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#0;n#li#0;n#ul#0;n#div#9;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#1;n#li#0;n#ul#0;n#div#9;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#2;n#li#0;n#ul#0;n#div#9;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#i#0;n#a#0;n#li#0;n#ul#0;n#div#9;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#0;n#li#0;n#ul#0;n#div#10;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#1;n#li#0;n#ul#0;n#div#10;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#2;n#li#0;n#ul#0;n#div#10;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#3;n#li#0;n#ul#0;n#div#10;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#4;n#li#0;n#ul#0;n#div#10;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#i#0;n#a#0;n#li#0;n#ul#0;n#div#10;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#0;n#li#0;n#ul#0;n#div#11;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#1;n#li#0;n#ul#0;n#div#11;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#2;n#li#0;n#ul#0;n#div#11;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#i#0;n#a#0;n#li#0;n#ul#0;n#div#11;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#0;n#form#0;n#li#0;n#ul#0;n#div#12;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#1;n#form#0;n#li#0;n#ul#0;n#div#12;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#2;n#form#0;n#li#0;n#ul#0;n#div#12;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#3;n#form#0;n#li#0;n#ul#0;n#div#12;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#4;n#form#0;n#li#0;n#ul#0;n#div#12;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#span#0;n#li#1;n#ul#0;n#div#12;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#span#1;n#li#1;n#ul#0;n#div#12;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#span#2;n#li#1;n#ul#0;n#div#12;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#span#3;n#li#1;n#ul#0;n#div#12;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#span#4;n#li#1;n#ul#0;n#div#12;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#span#5;n#li#1;n#ul#0;n#div#12;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#span#6;n#li#1;n#ul#0;n#div#12;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#1;n#div#13;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#input#0;n#div#0;n#div#0;n#form#0;n#div#1;n#div#13;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#input#0;n#div#0;n#div#1;n#form#0;n#div#1;n#div#13;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#input#0;n#div#0;n#div#2;n#form#0;n#div#1;n#div#13;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#button#0;n#div#3;n#form#0;n#div#1;n#div#13;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#span#0;n#div#0;n#div#14;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#0;n#div#0;n#div#1;n#div#14;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#0;n#div#1;n#div#1;n#div#14;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#img#0;n#form#0;n#div#0;n#div#1;n#div#1;n#div#14;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#p#0;n#form#0;n#div#0;n#div#1;n#div#1;n#div#14;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#p#1;n#form#0;n#div#0;n#div#1;n#div#1;n#div#14;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#p#2;n#form#0;n#div#0;n#div#1;n#div#1;n#div#14;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#p#3;n#form#0;n#div#0;n#div#1;n#div#1;n#div#14;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#p#4;n#form#0;n#div#0;n#div#1;n#div#1;n#div#14;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#a#0;n#p#5;n#form#0;n#div#0;n#div#1;n#div#1;n#div#14;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#1;n#div#1;n#div#1;n#div#14;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#p#0;n#form#0;n#div#1;n#div#1;n#div#1;n#div#14;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#p#1;n#form#0;n#div#1;n#div#1;n#div#1;n#div#14;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#p#2;n#form#0;n#div#1;n#div#1;n#div#1;n#div#14;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#p#3;n#form#0;n#div#1;n#div#1;n#div#1;n#div#14;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#p#4;n#form#0;n#div#1;n#div#1;n#div#1;n#div#14;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#p#5;n#form#0;n#div#1;n#div#1;n#div#1;n#div#14;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#span#0;n#div#0;n#div#15;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#0;n#div#0;n#div#1;n#div#15;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#1;n#div#1;n#div#15;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#0;n#div#1;n#div#1;n#div#15;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#img#0;n#form#0;n#div#0;n#div#1;n#div#1;n#div#15;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#p#0;n#form#0;n#div#0;n#div#1;n#div#1;n#div#15;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#span#0;n#p#1;n#form#0;n#div#0;n#div#1;n#div#1;n#div#15;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#input#0;n#p#1;n#form#0;n#div#0;n#div#1;n#div#1;n#div#15;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#span#0;n#p#2;n#form#0;n#div#0;n#div#1;n#div#1;n#div#15;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#input#1;n#p#2;n#form#0;n#div#0;n#div#1;n#div#1;n#div#15;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#span#0;n#p#3;n#form#0;n#div#0;n#div#1;n#div#1;n#div#15;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#span#0;n#p#4;n#form#0;n#div#0;n#div#1;n#div#1;n#div#15;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#input#0;n#p#4;n#form#0;n#div#0;n#div#1;n#div#1;n#div#15;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#span#0;n#p#6;n#form#0;n#div#0;n#div#1;n#div#1;n#div#15;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#input#0;n#p#6;n#form#0;n#div#0;n#div#1;n#div#1;n#div#15;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#1;n#div#1;n#div#1;n#div#15;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#p#0;n#form#0;n#div#1;n#div#1;n#div#1;n#div#15;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#p#1;n#form#0;n#div#1;n#div#1;n#div#1;n#div#15;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#span#0;n#p#2;n#form#0;n#div#1;n#div#1;n#div#1;n#div#15;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#select#0;n#p#2;n#form#0;n#div#1;n#div#1;n#div#1;n#div#15;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#p#3;n#form#0;n#div#1;n#div#1;n#div#1;n#div#15;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#span#0;n#p#4;n#form#0;n#div#1;n#div#1;n#div#1;n#div#15;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#input#0;n#p#4;n#form#0;n#div#1;n#div#1;n#div#1;n#div#15;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#p#5;n#form#0;n#div#1;n#div#1;n#div#1;n#div#15;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#button#0;n#div#1;n#div#1;n#div#15;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#span#0;n#div#0;n#div#16;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#0;n#div#0;n#div#1;n#div#16;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#button#0;n#div#0;n#div#1;n#div#16;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#button#1;n#div#0;n#div#1;n#div#16;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#0;n#div#1;n#div#1;n#div#16;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#0;n#div#0;n#div#1;n#div#1;n#div#16;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#a#0;n#div#0;n#div#1;n#div#1;n#div#16;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="WeightGetDao.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/Javaweb/Dao/WeightGetDao.java">
+      <file leaf-file-name="salaryProfileServlet.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/Javaweb/Servlet/salaryProfileServlet.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="424">
-              <caret line="60" selection-start-line="60" selection-start-column="2" selection-end-line="69" selection-end-column="7" />
+            <state relative-caret-position="236">
+              <caret line="20" column="47" selection-start-line="20" selection-start-column="47" selection-end-line="20" selection-end-column="47" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="employeeDao.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/Javaweb/Dao/employeeDao.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="3212">
+              <caret line="155" column="23" selection-start-line="155" selection-start-column="23" selection-end-line="155" selection-end-column="23" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="changeQueryServlet.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/Javaweb/Servlet/changeQueryServlet.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="280">
+              <caret line="14" column="19" lean-forward="true" selection-start-line="14" selection-end-line="15" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -407,77 +94,55 @@
       <file leaf-file-name="web.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/web/WEB-INF/web.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="380">
-              <caret line="53" column="53" lean-forward="true" selection-start-line="53" selection-start-column="53" selection-end-line="53" selection-end-column="53" />
+            <state relative-caret-position="456">
+              <caret line="87" column="53" lean-forward="true" selection-start-line="87" selection-start-column="53" selection-end-line="87" selection-end-column="53" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="switchaccount.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web/ert/pages/js/switchaccount.js">
+      <file leaf-file-name="index.jsp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/ert/pages/index.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret selection-start-column="3" selection-end-line="4" selection-end-column="6" />
+            <state relative-caret-position="-218">
+              <caret line="821" column="47" selection-start-line="821" selection-start-column="47" selection-end-line="821" selection-end-column="47" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="prohireChangeDao.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/Javaweb/Dao/prohireChangeDao.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="154">
+              <caret line="19" column="39" selection-start-line="19" selection-start-column="19" selection-end-line="19" selection-end-column="39" />
               <folding>
-                <element signature="n#!!doc" expanded="true" />
+                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="getWeight.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web/ert/pages/js/getWeight.js">
+      <file leaf-file-name="probationServlet.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/Javaweb/Servlet/probationServlet.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="22">
-              <caret line="1" selection-start-line="1" selection-end-line="38" selection-end-column="6" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="rstpwd.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web/ert/pages/js/rstpwd.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="220">
-              <caret line="10" column="39" lean-forward="true" selection-start-line="10" selection-start-column="39" selection-end-line="10" selection-end-column="39" />
+            <state relative-caret-position="726">
+              <caret line="36" column="14" lean-forward="true" selection-start-line="36" selection-start-column="14" selection-end-line="36" selection-end-column="14" />
               <folding>
-                <element signature="n#style#0;n#span#0;n#li#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#span#1;n#span#0;n#li#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#span#1;n#span#1;n#span#0;n#li#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#span#1;n#span#1;n#span#1;n#span#0;n#li#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#span#1;n#span#1;n#span#1;n#span#1;n#span#0;n#li#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#span#1;n#span#1;n#span#1;n#span#1;n#span#1;n#span#0;n#li#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#span#1;n#span#1;n#span#1;n#span#1;n#span#1;n#span#1;n#span#0;n#li#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#span#0;n#li#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#span#1;n#span#0;n#li#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#span#1;n#span#1;n#span#0;n#li#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#span#1;n#span#1;n#span#1;n#span#0;n#li#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#span#1;n#span#1;n#span#1;n#span#1;n#span#0;n#li#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#span#1;n#span#1;n#span#1;n#span#1;n#span#1;n#span#0;n#li#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#span#1;n#span#1;n#span#1;n#span#1;n#span#1;n#span#1;n#span#0;n#li#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#span#0;n#li#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#span#1;n#span#0;n#li#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#span#1;n#span#1;n#span#0;n#li#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#span#1;n#span#1;n#span#1;n#span#0;n#li#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#span#1;n#span#1;n#span#1;n#span#1;n#span#0;n#li#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#span#1;n#span#1;n#span#1;n#span#1;n#span#1;n#span#0;n#li#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#span#1;n#span#1;n#span#1;n#span#1;n#span#1;n#span#1;n#span#0;n#li#0;n#!!top" expanded="true" />
+                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="chperinfo.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web/ert/pages/js/chperinfo.js">
+      <file leaf-file-name="loginServlet.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/Javaweb/Servlet/loginServlet.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-198">
-              <caret line="48" column="3" lean-forward="true" selection-start-line="48" selection-start-column="3" selection-end-line="48" selection-end-column="3" />
+            <state relative-caret-position="414">
+              <caret line="26" column="67" selection-start-line="26" selection-start-column="52" selection-end-line="26" selection-end-column="67" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="dologin.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web/ert/pages/js/dologin.js">
-          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
     </leaf>
@@ -537,10 +202,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/md5Utils.java" />
-        <option value="$PROJECT_DIR$/src/employee.java" />
-        <option value="$PROJECT_DIR$/web/ert/index.html" />
-        <option value="$PROJECT_DIR$/src/SessionTrack.java" />
         <option value="$PROJECT_DIR$/test/resultSetToJsonTest.java" />
         <option value="$PROJECT_DIR$/web/ert/css/commonCopy.css" />
         <option value="$PROJECT_DIR$/src/loginServlet.java" />
@@ -561,14 +222,12 @@
         <option value="$PROJECT_DIR$/src/com/Javaweb/Dao/careerDao.java" />
         <option value="$PROJECT_DIR$/test/com/Javaweb/Dao/careerDaoTest.java" />
         <option value="$PROJECT_DIR$/src/com/Javaweb/Object/employee.java" />
-        <option value="$PROJECT_DIR$/test/com/Javaweb/Dao/employeeDaoTest.java" />
         <option value="$PROJECT_DIR$/src/com/Javaweb/Dao/baseDao.java" />
         <option value="$PROJECT_DIR$/src/com/Javaweb/Servlet/manageServlet.java" />
         <option value="$PROJECT_DIR$/web/ert/index.jsp" />
         <option value="$PROJECT_DIR$/web/ert/pages/js/chperinfo.js" />
         <option value="$PROJECT_DIR$/src/com/Javaweb/Servlet/changePasswordServlet.java" />
         <option value="$PROJECT_DIR$/src/com/Javaweb/Servlet/changePersonalInfoServlet.java" />
-        <option value="$PROJECT_DIR$/src/com/Javaweb/Dao/employeeDao.java" />
         <option value="$PROJECT_DIR$/src/com/Javaweb/Object/departmentChange.java" />
         <option value="$PROJECT_DIR$/test/com/Javaweb/Dao/departmentChangeDaoTest.java" />
         <option value="$PROJECT_DIR$/src/com/Javaweb/Utils/resultSetToJson.java" />
@@ -581,13 +240,19 @@
         <option value="$PROJECT_DIR$/web/ert/pages/js/switchaccount.js" />
         <option value="$PROJECT_DIR$/web/ert/pages/js/dologin.js" />
         <option value="$PROJECT_DIR$/src/com/Javaweb/Dao/WeightGet.java" />
-        <option value="$PROJECT_DIR$/web/WEB-INF/web.xml" />
         <option value="$PROJECT_DIR$/src/com/Javaweb/Servlet/changeQueryServlet.java" />
         <option value="$PROJECT_DIR$/src/com/Javaweb/Servlet/DeptWeightServlet.java" />
         <option value="$PROJECT_DIR$/src/com/Javaweb/Dao/WeightGetDao.java" />
-        <option value="$PROJECT_DIR$/web/ert/pages/index.jsp" />
         <option value="$PROJECT_DIR$/web/ert/pages/js/getWeight.js" />
         <option value="$PROJECT_DIR$/web/ert/pages/js/rstpwd.js" />
+        <option value="$PROJECT_DIR$/test/com/Javaweb/Dao/employeeDaoTest.java" />
+        <option value="$PROJECT_DIR$/src/com/Javaweb/Dao/employeeDao.java" />
+        <option value="$PROJECT_DIR$/src/com/Javaweb/Servlet/personDistributionServlet.java" />
+        <option value="$PROJECT_DIR$/src/com/Javaweb/Servlet/salaryProfileServlet.java" />
+        <option value="$PROJECT_DIR$/web/ert/pages/index.jsp" />
+        <option value="$PROJECT_DIR$/src/com/Javaweb/Dao/prohireChangeDao.java" />
+        <option value="$PROJECT_DIR$/web/WEB-INF/web.xml" />
+        <option value="$PROJECT_DIR$/src/com/Javaweb/Servlet/probationServlet.java" />
       </list>
     </option>
   </component>
@@ -608,7 +273,7 @@
       <path value="$PROJECT_DIR$/web/ert/package.json" />
     </packageJsonPaths>
   </component>
-  <component name="ProjectFrameBounds" extendedState="1">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="366" />
     <option name="width" value="1519" />
     <option name="height" value="1047" />
@@ -621,8 +286,9 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
+      <pane id="AndroidView" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -717,13 +383,6 @@
               <item name="Javaweb" type="462c0819:PsiDirectoryNode" />
               <item name="web" type="462c0819:PsiDirectoryNode" />
               <item name="ert" type="462c0819:PsiDirectoryNode" />
-              <item name="css" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Javaweb" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Javaweb" type="462c0819:PsiDirectoryNode" />
-              <item name="web" type="462c0819:PsiDirectoryNode" />
-              <item name="ert" type="462c0819:PsiDirectoryNode" />
               <item name="pages" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -744,7 +403,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="AndroidView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -769,22 +427,22 @@
       <recent name="com.Javaweb.Dao" />
       <recent name="" />
     </key>
-    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
-      <recent name="com.Javaweb.Utils" />
-      <recent name="com.Javaweb.Dao" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\EndangeredFish\Desktop\Javaweb\web\lib" />
-    </key>
-    <key name="CreateTestDialog.Recents.Supers">
-      <recent name="" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\EndangeredFish\Desktop\Javaweb\src\com\Javaweb\Dao" />
       <recent name="C:\Users\EndangeredFish\Desktop\Javaweb\src\com\Javaweb\Object" />
       <recent name="C:\Users\EndangeredFish\Desktop\Javaweb\web\ert\pages\js" />
       <recent name="C:\Users\EndangeredFish\Desktop\Javaweb\lib" />
       <recent name="C:\Users\EndangeredFish\Desktop\Javaweb\web" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="com.Javaweb.Utils" />
+      <recent name="com.Javaweb.Dao" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\EndangeredFish\Desktop\Javaweb\web\lib" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -888,19 +546,19 @@
       </option>
       <patterns />
     </configuration>
-    <configuration name="departmentDaoTest.getDepartmentName" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="employeeDaoTest.getPersonDistribution" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Javaweb" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.Javaweb.Utils.*" />
+          <option name="PATTERN" value="com.Javaweb.Dao.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="com.Javaweb.Dao" />
-      <option name="MAIN_CLASS_NAME" value="com.Javaweb.Dao.departmentDaoTest" />
-      <option name="METHOD_NAME" value="getDepartmentName" />
+      <option name="MAIN_CLASS_NAME" value="com.Javaweb.Dao.employeeDaoTest" />
+      <option name="METHOD_NAME" value="getPersonDistribution" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -1029,19 +687,19 @@
     </configuration>
     <list>
       <item itemvalue="Tomcat Server.Tomcat 7.0.90" />
-      <item itemvalue="JUnit.departmentDaoTest.getDepartmentName" />
       <item itemvalue="JUnit.careerDaoTest" />
       <item itemvalue="JUnit.careerDaoTest.addCareer" />
       <item itemvalue="JUnit.employeeDaoTest.setPersonalInfomation" />
       <item itemvalue="JUnit.departmentChangeDaoTest.addDepartmentChange" />
+      <item itemvalue="JUnit.employeeDaoTest.getPersonDistribution" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.employeeDaoTest.getPersonDistribution" />
         <item itemvalue="JUnit.departmentChangeDaoTest.addDepartmentChange" />
         <item itemvalue="JUnit.employeeDaoTest.setPersonalInfomation" />
         <item itemvalue="JUnit.careerDaoTest" />
         <item itemvalue="JUnit.careerDaoTest.addCareer" />
-        <item itemvalue="JUnit.departmentDaoTest.getDepartmentName" />
       </list>
     </recent_temporary>
   </component>
@@ -1060,7 +718,8 @@
       <workItem from="1531283980693" duration="810000" />
       <workItem from="1531284877116" duration="894000" />
       <workItem from="1531289711076" duration="10983000" />
-      <workItem from="1531317263902" duration="165437000" />
+      <workItem from="1531317263902" duration="175307000" />
+      <workItem from="1531679685118" duration="2767000" />
     </task>
     <task id="LOCAL-00001" summary="new jsp and backend code">
       <created>1531316642575</created>
@@ -1073,21 +732,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="departmentChangeDaoTest_addDepartmentChange - 2018.07.15 at 13h 53m 19s.xml">
-      <configuration name="departmentChangeDaoTest.addDepartmentChange" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="departmentChangeDaoTest_addDepartmentChange - 2018.07.15 at 14h 22m 34s.xml">
-      <configuration name="departmentChangeDaoTest.addDepartmentChange" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="departmentChangeDaoTest_addDepartmentChange - 2018.07.15 at 14h 33m 28s.xml">
-      <configuration name="departmentChangeDaoTest.addDepartmentChange" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="departmentChangeDaoTest_addDepartmentChange - 2018.07.15 at 14h 33m 46s.xml">
-      <configuration name="departmentChangeDaoTest.addDepartmentChange" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="departmentChangeDaoTest_addDepartmentChange - 2018.07.15 at 14h 34m 09s.xml">
-      <configuration name="departmentChangeDaoTest.addDepartmentChange" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="departmentChangeDaoTest_addDepartmentChange - 2018.07.15 at 14h 34m 18s.xml">
       <configuration name="departmentChangeDaoTest.addDepartmentChange" configurationId="JUnit" />
     </history-entry>
@@ -1103,15 +747,29 @@
     <history-entry file="departmentChangeDaoTest_addDepartmentChange - 2018.07.15 at 14h 41m 20s.xml">
       <configuration name="departmentChangeDaoTest.addDepartmentChange" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="employeeDaoTest_getPersonDistribution - 2018.07.16 at 00h 23m 49s.xml">
+      <configuration name="employeeDaoTest.getPersonDistribution" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="employeeDaoTest_getPersonDistribution - 2018.07.16 at 00h 25m 53s.xml">
+      <configuration name="employeeDaoTest.getPersonDistribution" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="employeeDaoTest_getPersonDistribution - 2018.07.16 at 00h 42m 31s.xml">
+      <configuration name="employeeDaoTest.getPersonDistribution" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="employeeDaoTest_getPersonDistribution - 2018.07.16 at 00h 44m 45s.xml">
+      <configuration name="employeeDaoTest.getPersonDistribution" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="employeeDaoTest_getPersonDistribution - 2018.07.16 at 02h 27m 06s.xml">
+      <configuration name="employeeDaoTest.getPersonDistribution" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="225696000" />
+    <option name="totallyTimeSpent" value="238333000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="366" y="0" width="1519" height="1047" extended-state="0" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
     <editor active="true" />
     <layout>
-      <window_info anchor="bottom" id="SVN Repositories" order="7" weight="0.32978722" />
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.27145708" side_tool="true" weight="0.43145162" />
       <window_info anchor="bottom" id="Application Servers" order="7" />
@@ -1125,25 +783,26 @@
       <window_info id="UI Designer" order="2" />
       <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49567533" weight="0.39784947" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Messages" order="7" sideWeight="0.49634066" weight="0.32258064" />
+      <window_info anchor="bottom" id="Messages" order="7" sideWeight="0.49634066" weight="0.32223415" />
       <window_info anchor="right" id="Palette&#9;" order="3" />
       <window_info id="Image Layers" order="2" />
       <window_info anchor="bottom" id="Java Enterprise" order="7" />
       <window_info anchor="right" id="Capture Analysis" order="3" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.7285429" visible="true" weight="0.34479055" />
       <window_info anchor="bottom" id="Version Control" order="7" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.7285429" visible="true" weight="0.34468085" />
       <window_info anchor="bottom" id="Terminal" order="7" />
-      <window_info anchor="bottom" id="Database Console" weight="0.32894737" />
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.54418606" visible="true" weight="0.17431803" />
-      <window_info id="Web" order="2" sideWeight="0.45581394" side_tool="true" weight="0.17431803" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.3276316" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.54383117" visible="true" weight="0.13645834" />
+      <window_info id="Web" order="2" sideWeight="0.45616883" side_tool="true" weight="0.13645834" />
       <window_info anchor="right" id="Theme Preview" order="3" />
       <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="SVN Repositories" order="7" weight="0.32978722" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="bottom" id="Database Console" order="8" weight="0.32553193" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32659575" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -1193,30 +852,21 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/web/ert/css/commonCopy.css">
+    <entry file="file://$PROJECT_DIR$/web/ert/pages/js/rstpwd.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="257">
-          <caret line="267" column="5" lean-forward="true" selection-start-line="267" selection-start-column="5" selection-end-line="267" selection-end-column="5" />
+        <state relative-caret-position="220">
+          <caret line="10" column="39" lean-forward="true" selection-start-line="10" selection-start-column="39" selection-end-line="10" selection-end-column="39" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/ert/index.jsp">
+    <entry file="file://$PROJECT_DIR$/web/ert/pages/index.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="18" column="25" selection-start-line="18" selection-start-column="25" selection-end-line="18" selection-end-column="25" />
+        <state relative-caret-position="18084">
+          <caret line="822" lean-forward="true" selection-start-line="822" selection-end-line="822" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/encodingFilter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-487">
-          <caret line="27" column="29" lean-forward="true" selection-start-line="27" selection-start-column="29" selection-end-line="27" selection-end-column="29" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/encodingFilter.java" />
     <entry file="jar://$PROJECT_DIR$/lib/json-simple-1.1.jar!/org/json/simple/JSONArray.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="66">
@@ -1228,55 +878,19 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="242">
           <caret line="11" column="54" selection-start-line="11" selection-start-column="54" selection-end-line="11" selection-end-column="54" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/ert/css/common.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="286">
-          <caret line="76" column="13" lean-forward="true" selection-start-line="76" selection-start-column="13" selection-end-line="76" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/out/artifacts/Javaweb_war_exploded/ert/css/common.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="68" column="27" lean-forward="true" selection-start-line="68" selection-start-column="27" selection-end-line="68" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/web/ert/css/common.css" />
+    <entry file="file://$PROJECT_DIR$/out/artifacts/Javaweb_war_exploded/ert/css/common.css" />
     <entry file="file://$PROJECT_DIR$/src/com/Javaweb/Utils/md5Utils.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="198">
           <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/Javaweb/package-info.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/Javaweb/Servlet/SessionTrack.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="418">
-          <caret line="19" selection-start-line="19" selection-end-line="19" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Javaweb.iml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$USER_HOME$/AppData/Local/Temp/Rar$DIa25748.40179/IUserInfoDao.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/Javaweb/Servlet/SessionTrack.java" />
     <entry file="jar://C:/Program Files/Java/jdk1.8.0_161/src.zip!/java/sql/ResultSet.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="137">
@@ -1330,11 +944,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="41">
           <caret line="14" column="78" selection-start-line="14" selection-start-column="78" selection-end-line="14" selection-end-column="78" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#195#196#0" expanded="true" />
-            <element signature="e#221#222#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1342,9 +951,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="528">
           <caret line="24" column="84" lean-forward="true" selection-start-line="24" selection-start-column="84" selection-end-line="24" selection-end-column="84" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1352,9 +958,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="459">
           <caret line="49" selection-start-line="49" selection-end-line="49" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1362,12 +965,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="309">
           <caret line="48" column="38" selection-start-line="48" selection-start-column="38" selection-end-line="48" selection-end-column="38" />
-          <folding>
-            <element signature="e#524#525#0" expanded="true" />
-            <element signature="e#549#550#0" expanded="true" />
-            <element signature="e#582#583#0" expanded="true" />
-            <element signature="e#610#611#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1375,19 +972,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="12870">
           <caret line="585" column="14" selection-start-line="585" selection-start-column="8" selection-end-line="585" selection-end-column="14" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/Javaweb/Servlet/loginServlet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="572">
-          <caret line="26" column="67" selection-start-line="26" selection-start-column="22" selection-end-line="26" selection-end-column="67" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1395,19 +979,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="353">
           <caret line="20" selection-start-line="20" selection-end-line="21" selection-end-column="46" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/com/Javaweb/Dao/employeeDaoTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="353">
-          <caret line="58" column="23" lean-forward="true" selection-start-line="58" selection-end-line="59" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1415,32 +986,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="88">
           <caret line="46" column="37" selection-start-line="46" selection-start-column="37" selection-end-line="46" selection-end-column="37" />
-          <folding>
-            <element signature="e#298#299#0" expanded="true" />
-            <element signature="e#340#341#0" expanded="true" />
-            <element signature="e#378#379#0" expanded="true" />
-            <element signature="e#415#416#0" expanded="true" />
-            <element signature="e#453#454#0" expanded="true" />
-            <element signature="e#490#491#0" expanded="true" />
-            <element signature="e#532#533#0" expanded="true" />
-            <element signature="e#573#574#0" expanded="true" />
-            <element signature="e#610#611#0" expanded="true" />
-            <element signature="e#646#647#0" expanded="true" />
-            <element signature="e#680#681#0" expanded="true" />
-            <element signature="e#710#711#0" expanded="true" />
-            <element signature="e#756#757#0" expanded="true" />
-            <element signature="e#794#795#0" expanded="true" />
-            <element signature="e#861#862#0" expanded="true" />
-            <element signature="e#923#924#0" expanded="true" />
-            <element signature="e#980#981#0" expanded="true" />
-            <element signature="e#1032#1033#0" expanded="true" />
-            <element signature="e#1089#1090#0" expanded="true" />
-            <element signature="e#1141#1142#0" expanded="true" />
-            <element signature="e#1206#1207#0" expanded="true" />
-            <element signature="e#1266#1267#0" expanded="true" />
-            <element signature="e#1321#1322#0" expanded="true" />
-            <element signature="e#1371#1372#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1448,9 +993,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="198">
           <caret line="15" column="40" lean-forward="true" selection-start-line="15" selection-start-column="40" selection-end-line="15" selection-end-column="40" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1458,21 +1000,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="256">
           <caret line="56" column="33" selection-start-line="56" selection-start-column="30" selection-end-line="56" selection-end-column="33" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/Javaweb/Dao/departmentChangeDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1019">
-          <caret line="54" selection-start-line="54" selection-end-line="54" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#264#265#0" expanded="true" />
-            <element signature="e#300#301#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1490,36 +1017,14 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/Javaweb/Dao/employeeDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-506">
-          <caret line="78" column="5" lean-forward="true" selection-start-line="78" selection-start-column="5" selection-end-line="78" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/Javaweb/Dao/departmentDao.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="242">
           <caret line="11" column="5" lean-forward="true" selection-start-line="11" selection-start-column="5" selection-end-line="11" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/Javaweb/Utils/WeightGet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="65" lean-forward="true" selection-start-line="65" selection-end-line="65" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/Javaweb/Utils/WeightGet.java" />
     <entry file="file://$PROJECT_DIR$/web/index.jsp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-16">
@@ -1530,16 +1035,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/ert/pages/js/dologin.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/Javaweb/Servlet/changePasswordServlet.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="278">
           <caret line="32" column="121" selection-start-line="32" selection-start-column="121" selection-end-line="32" selection-end-column="121" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1547,16 +1046,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-280">
           <caret line="17" column="24" lean-forward="true" selection-start-line="17" selection-end-line="18" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/Javaweb/Servlet/changeQueryServlet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="182">
-          <caret line="30" column="121" selection-start-line="30" selection-start-column="121" selection-end-line="30" selection-end-column="121" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1577,165 +1066,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/ert/pages/index.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="341">
-          <caret line="821" column="35" selection-start-line="821" selection-start-column="35" selection-end-line="821" selection-end-column="35" />
-          <folding>
-            <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#nav#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#a#0;n#div#0;n#nav#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#button#1;n#div#0;n#nav#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#li#0;n#ul#0;n#div#0;n#div#0;n#div#0;n#nav#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="e#9189#9196#1#HTML" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#li#0;n#ul#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#1;n#li#0;n#ul#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#2;n#li#0;n#ul#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#i#0;n#a#0;n#li#0;n#ul#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#0;n#li#1;n#ul#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#1;n#li#1;n#ul#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#2;n#li#1;n#ul#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#3;n#li#1;n#ul#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#4;n#li#1;n#ul#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#5;n#li#1;n#ul#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#6;n#li#1;n#ul#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#li#0;n#ul#0;n#div#1;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#1;n#li#0;n#ul#0;n#div#1;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#2;n#li#0;n#ul#0;n#div#1;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#i#0;n#a#0;n#li#0;n#ul#0;n#div#1;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#li#0;n#ul#0;n#div#2;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#1;n#li#0;n#ul#0;n#div#2;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#2;n#li#0;n#ul#0;n#div#2;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#i#0;n#a#0;n#li#0;n#ul#0;n#div#2;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#li#0;n#ul#0;n#div#3;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#1;n#li#0;n#ul#0;n#div#3;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#2;n#li#0;n#ul#0;n#div#3;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#i#0;n#a#0;n#li#0;n#ul#0;n#div#3;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#li#0;n#ul#0;n#div#4;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#1;n#li#0;n#ul#0;n#div#4;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#2;n#li#0;n#ul#0;n#div#4;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#i#0;n#a#0;n#li#0;n#ul#0;n#div#4;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#li#0;n#ul#0;n#div#5;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#1;n#li#0;n#ul#0;n#div#5;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#2;n#li#0;n#ul#0;n#div#5;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#i#0;n#a#0;n#li#0;n#ul#0;n#div#5;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#li#0;n#ul#0;n#div#6;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#1;n#li#0;n#ul#0;n#div#6;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#2;n#li#0;n#ul#0;n#div#6;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#i#0;n#a#0;n#li#0;n#ul#0;n#div#6;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#li#0;n#ul#0;n#div#7;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#1;n#li#0;n#ul#0;n#div#7;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#2;n#li#0;n#ul#0;n#div#7;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#i#0;n#a#0;n#li#0;n#ul#0;n#div#7;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#li#0;n#ul#0;n#div#8;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#1;n#li#0;n#ul#0;n#div#8;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#2;n#li#0;n#ul#0;n#div#8;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#i#0;n#a#0;n#li#0;n#ul#0;n#div#8;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#li#0;n#ul#0;n#div#9;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#1;n#li#0;n#ul#0;n#div#9;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#2;n#li#0;n#ul#0;n#div#9;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#i#0;n#a#0;n#li#0;n#ul#0;n#div#9;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#li#0;n#ul#0;n#div#10;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#1;n#li#0;n#ul#0;n#div#10;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#2;n#li#0;n#ul#0;n#div#10;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#3;n#li#0;n#ul#0;n#div#10;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#4;n#li#0;n#ul#0;n#div#10;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#i#0;n#a#0;n#li#0;n#ul#0;n#div#10;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#li#0;n#ul#0;n#div#11;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#1;n#li#0;n#ul#0;n#div#11;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#2;n#li#0;n#ul#0;n#div#11;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#i#0;n#a#0;n#li#0;n#ul#0;n#div#11;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#form#0;n#li#0;n#ul#0;n#div#12;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#1;n#form#0;n#li#0;n#ul#0;n#div#12;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#2;n#form#0;n#li#0;n#ul#0;n#div#12;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#3;n#form#0;n#li#0;n#ul#0;n#div#12;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#4;n#form#0;n#li#0;n#ul#0;n#div#12;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#0;n#li#1;n#ul#0;n#div#12;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#1;n#li#1;n#ul#0;n#div#12;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#2;n#li#1;n#ul#0;n#div#12;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#3;n#li#1;n#ul#0;n#div#12;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#4;n#li#1;n#ul#0;n#div#12;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#5;n#li#1;n#ul#0;n#div#12;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#6;n#li#1;n#ul#0;n#div#12;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#1;n#div#13;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#input#0;n#div#0;n#div#0;n#form#0;n#div#1;n#div#13;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#input#0;n#div#0;n#div#1;n#form#0;n#div#1;n#div#13;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#input#0;n#div#0;n#div#2;n#form#0;n#div#1;n#div#13;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#button#0;n#div#3;n#form#0;n#div#1;n#div#13;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#0;n#div#0;n#div#14;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#0;n#div#1;n#div#14;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#1;n#div#1;n#div#14;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#img#0;n#form#0;n#div#0;n#div#1;n#div#1;n#div#14;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#p#0;n#form#0;n#div#0;n#div#1;n#div#1;n#div#14;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#p#1;n#form#0;n#div#0;n#div#1;n#div#1;n#div#14;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#p#2;n#form#0;n#div#0;n#div#1;n#div#1;n#div#14;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#p#3;n#form#0;n#div#0;n#div#1;n#div#1;n#div#14;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#p#4;n#form#0;n#div#0;n#div#1;n#div#1;n#div#14;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#a#0;n#p#5;n#form#0;n#div#0;n#div#1;n#div#1;n#div#14;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#1;n#div#1;n#div#1;n#div#14;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#p#0;n#form#0;n#div#1;n#div#1;n#div#1;n#div#14;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#p#1;n#form#0;n#div#1;n#div#1;n#div#1;n#div#14;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#p#2;n#form#0;n#div#1;n#div#1;n#div#1;n#div#14;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#p#3;n#form#0;n#div#1;n#div#1;n#div#1;n#div#14;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#p#4;n#form#0;n#div#1;n#div#1;n#div#1;n#div#14;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#p#5;n#form#0;n#div#1;n#div#1;n#div#1;n#div#14;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#0;n#div#0;n#div#15;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#0;n#div#1;n#div#15;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#1;n#div#1;n#div#15;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#1;n#div#1;n#div#15;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#img#0;n#form#0;n#div#0;n#div#1;n#div#1;n#div#15;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#p#0;n#form#0;n#div#0;n#div#1;n#div#1;n#div#15;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#0;n#p#1;n#form#0;n#div#0;n#div#1;n#div#1;n#div#15;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#input#0;n#p#1;n#form#0;n#div#0;n#div#1;n#div#1;n#div#15;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#0;n#p#2;n#form#0;n#div#0;n#div#1;n#div#1;n#div#15;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#input#1;n#p#2;n#form#0;n#div#0;n#div#1;n#div#1;n#div#15;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#0;n#p#3;n#form#0;n#div#0;n#div#1;n#div#1;n#div#15;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#0;n#p#4;n#form#0;n#div#0;n#div#1;n#div#1;n#div#15;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#input#0;n#p#4;n#form#0;n#div#0;n#div#1;n#div#1;n#div#15;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#0;n#p#6;n#form#0;n#div#0;n#div#1;n#div#1;n#div#15;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#input#0;n#p#6;n#form#0;n#div#0;n#div#1;n#div#1;n#div#15;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#1;n#div#1;n#div#1;n#div#15;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#p#0;n#form#0;n#div#1;n#div#1;n#div#1;n#div#15;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#p#1;n#form#0;n#div#1;n#div#1;n#div#1;n#div#15;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#0;n#p#2;n#form#0;n#div#1;n#div#1;n#div#1;n#div#15;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#select#0;n#p#2;n#form#0;n#div#1;n#div#1;n#div#1;n#div#15;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#p#3;n#form#0;n#div#1;n#div#1;n#div#1;n#div#15;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#0;n#p#4;n#form#0;n#div#1;n#div#1;n#div#1;n#div#15;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#input#0;n#p#4;n#form#0;n#div#1;n#div#1;n#div#1;n#div#15;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#p#5;n#form#0;n#div#1;n#div#1;n#div#1;n#div#15;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#button#0;n#div#1;n#div#1;n#div#15;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#0;n#div#0;n#div#16;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#0;n#div#1;n#div#16;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#button#0;n#div#0;n#div#1;n#div#16;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#button#1;n#div#0;n#div#1;n#div#16;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#1;n#div#1;n#div#16;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#0;n#div#1;n#div#1;n#div#16;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#a#0;n#div#0;n#div#1;n#div#1;n#div#16;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/web/ert/pages/js/chperinfo.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-198">
           <caret line="48" column="3" lean-forward="true" selection-start-line="48" selection-start-column="3" selection-end-line="48" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/WEB-INF/web.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="380">
-          <caret line="53" column="53" lean-forward="true" selection-start-line="53" selection-start-column="53" selection-end-line="53" selection-end-column="53" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/Javaweb/Dao/WeightGetDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="424">
-          <caret line="60" selection-start-line="60" selection-start-column="2" selection-end-line="69" selection-end-column="7" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1749,47 +1083,129 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/ert/pages/js/getWeight.js">
+    <entry file="file://$PROJECT_DIR$/src/com/Javaweb/Servlet/DeptWeightServlet.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="22">
-          <caret line="1" selection-start-line="1" selection-end-line="38" selection-end-column="6" />
+        <state relative-caret-position="220">
+          <caret line="22" column="29" selection-start-line="22" selection-end-line="23" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/Javaweb/Dao/WeightGetDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1232">
+          <caret line="60" selection-start-line="60" selection-start-column="2" selection-end-line="69" selection-end-column="7" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/com/Javaweb/Dao/employeeDaoTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="406">
+          <caret line="66" column="5" lean-forward="true" selection-start-line="66" selection-start-column="5" selection-end-line="66" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/Javaweb/Dao/employeeDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3212">
+          <caret line="155" column="23" selection-start-line="155" selection-start-column="23" selection-end-line="155" selection-end-column="23" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/Javaweb/Servlet/personDistributionServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="18" selection-start-line="18" selection-end-line="24" selection-end-column="9" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/ert/pages/js/getWeight.js" />
+    <entry file="file://$PROJECT_DIR$/web/ert/pages/index.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-218">
+          <caret line="821" column="47" selection-start-line="821" selection-start-column="47" selection-end-line="821" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/Javaweb/Servlet/salaryProfileServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="236">
+          <caret line="20" column="47" selection-start-line="20" selection-start-column="47" selection-end-line="20" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/WEB-INF/web.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="456">
+          <caret line="87" column="53" lean-forward="true" selection-start-line="87" selection-start-column="53" selection-end-line="87" selection-end-column="53" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/web/ert/pages/js/rstpwd.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="10" column="39" lean-forward="true" selection-start-line="10" selection-start-column="39" selection-end-line="10" selection-end-column="39" />
+        <state relative-caret-position="22">
+          <caret line="10" column="39" selection-start-line="10" selection-start-column="39" selection-end-line="10" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/Javaweb/Dao/departmentChangeDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="31" column="42" selection-start-line="31" selection-start-column="21" selection-end-line="31" selection-end-column="42" />
           <folding>
-            <element signature="n#style#0;n#span#0;n#li#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#1;n#span#0;n#li#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#1;n#span#1;n#span#0;n#li#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#1;n#span#1;n#span#1;n#span#0;n#li#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#1;n#span#1;n#span#1;n#span#1;n#span#0;n#li#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#1;n#span#1;n#span#1;n#span#1;n#span#1;n#span#0;n#li#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#1;n#span#1;n#span#1;n#span#1;n#span#1;n#span#1;n#span#0;n#li#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#0;n#li#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#1;n#span#0;n#li#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#1;n#span#1;n#span#0;n#li#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#1;n#span#1;n#span#1;n#span#0;n#li#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#1;n#span#1;n#span#1;n#span#1;n#span#0;n#li#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#1;n#span#1;n#span#1;n#span#1;n#span#1;n#span#0;n#li#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#1;n#span#1;n#span#1;n#span#1;n#span#1;n#span#1;n#span#0;n#li#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#0;n#li#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#1;n#span#0;n#li#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#1;n#span#1;n#span#0;n#li#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#1;n#span#1;n#span#1;n#span#0;n#li#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#1;n#span#1;n#span#1;n#span#1;n#span#0;n#li#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#1;n#span#1;n#span#1;n#span#1;n#span#1;n#span#0;n#li#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#1;n#span#1;n#span#1;n#span#1;n#span#1;n#span#1;n#span#0;n#li#0;n#!!top" expanded="true" />
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/Javaweb/Servlet/DeptWeightServlet.java">
+    <entry file="file://$PROJECT_DIR$/src/com/Javaweb/Servlet/changeQueryServlet.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="12" column="16" selection-start-line="12" selection-start-column="16" selection-end-line="12" selection-end-column="16" />
+        <state relative-caret-position="280">
+          <caret line="14" column="19" lean-forward="true" selection-start-line="14" selection-end-line="15" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/Javaweb/Dao/prohireChangeDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="19" column="39" selection-start-line="19" selection-start-column="19" selection-end-line="19" selection-end-column="39" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/Javaweb/Servlet/loginServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="414">
+          <caret line="26" column="67" selection-start-line="26" selection-start-column="52" selection-end-line="26" selection-end-column="67" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/Javaweb/Servlet/probationServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="726">
+          <caret line="36" column="14" lean-forward="true" selection-start-line="36" selection-start-column="14" selection-end-line="36" selection-end-column="14" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1798,7 +1214,7 @@
     <states>
       <state key="ArquillianSettingsConfigurable.UI">
         <settings>
-          <last-edited />
+          <last-edited>Tomcat Embedded 7.x|Embedded</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
@@ -1818,7 +1234,7 @@
               <type id="javaee-facet-resources" />
             </show-content>
           </artifact-editor>
-          <last-edited />
+          <last-edited>Javaweb:war exploded</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
@@ -1890,7 +1306,7 @@
       </state>
       <state key="ProjectLibrariesConfigurable.UI">
         <settings>
-          <last-edited />
+          <last-edited>Arquillian JUnit:Release</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>

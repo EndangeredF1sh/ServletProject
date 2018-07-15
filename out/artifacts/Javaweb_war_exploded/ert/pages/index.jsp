@@ -819,7 +819,6 @@
     <script src="js/rstpwd.js"></script>
     <script src="../../js/jquery_md5/jquery.md5.js"></script>
     <script src="js/chperinfo.js"></script>
-    <script src="js/getWeight.js"><</script>
     <script src="js/switchaccount.js"></script>
 
     <script>

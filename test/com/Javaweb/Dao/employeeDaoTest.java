@@ -59,4 +59,10 @@ public class employeeDaoTest {
         String JSON = resultSetToJson.resultSetToJsonForString(d.getEmployeeResults("10004"));
         System.out.println(JSON);
     }
+
+    @Test
+    public void getPersonDistribution() throws SQLException {
+        employeeDao dao = new employeeDao();
+        dao.getPersonDistribution();
+    }
 }
