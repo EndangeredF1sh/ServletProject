@@ -1,5 +1,6 @@
 package com.Javaweb.Dao;
 import java.sql.ResultSet;
+import java.sql.SQLException;
 import java.util.ArrayList;
 import java.util.List;
 
@@ -15,9 +16,10 @@ public class prohireChangeDao extends baseDao {
             sql+= " and ert_employees.id=? ";
             param.add(ID);
         }
-        return sqlSelectUtil(sql,param);
+        ResultSet rs = sqlSelectUtil(sql,param);
+        return rs;
     }
-    public boolean deleteProbationForID(String ID){
+    public boolean deleteProbationForID(String ID) throws SQLException {
         String sql="delete from probation_info where pro_employee_id=? ";
         List<Object> param=new ArrayList<>();
             if(!ID.isEmpty())
@@ -27,6 +29,7 @@ public class prohireChangeDao extends baseDao {
             else{
                 return false;
             }
-            return sqlInsertUtil(sql,param);
+            boolean res = sqlInsertUtil(sql,param);
+            return res;
     }
 }

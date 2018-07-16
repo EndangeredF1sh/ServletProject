@@ -3,7 +3,7 @@ $("[data-toggle='tab']").on('click',function(){
 
 });
 
-$("#chaxundiaodong >ul >li >form >button").on('click',function() {
+$("#cxbtn").on('click',function() {
     $("#cha2").nextAll().remove();
     var json = {
         ID: $("#we1").val(),

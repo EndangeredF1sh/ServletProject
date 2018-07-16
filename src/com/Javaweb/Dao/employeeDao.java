@@ -7,6 +7,7 @@ import org.json.simple.JSONObject;
 import java.sql.ResultSet;
 import java.sql.SQLException;
 import java.util.ArrayList;
+import java.util.Date;
 import java.util.List;
 
 public class employeeDao extends baseDao{
@@ -65,8 +66,40 @@ public class employeeDao extends baseDao{
             pstat.setString(12,hire_date);
             pstat.setDouble(13,salary);
             pstat.executeUpdate();
+            sql = "select id from ert_employees where phone_number = " + phone_number;
+            pstat = conn.prepareStatement(sql);
+            ResultSet rs = pstat.executeQuery();
+            String ID = "";
+            String dep_name = "";
+            String pos_name = "";
+            if(rs.next()){
+                ID = rs.getString("id");
+            }
+            sql = "select ert_departments.department_name, ert_positions.position_name from ert_departments,ert_positions where ert_departments.department_id= ? and ert_positions.position_id=?" ;
+            List<Object> params = new ArrayList<>();
+            params.add(department_id);
+            params.add(position_id);
+            ResultSet rs2 = sqlSelectUtil(sql, params);
+            if (rs2.next()) {
+                pos_name = rs2.getString("position_name");
+                dep_name = rs2.getString("department_name");
+            } else {
+                return false;
+            }
+            Date date = new Date();
+            java.sql.Date sql_date = new java.sql.Date(date.getTime());
+            sql = "insert into dept_change (ch_employee_id,ch_dept_source,ch_pos_source,ch_date,ch_dept_destination,ch_pos_destination) values (?,?,?,?,?,?)";
+            List<Object> param = new ArrayList<>();
+            param.add(ID);
+            param.add("入职");
+            param.add("入职");
+            param.add(sql_date);
+            param.add(dep_name);
+            param.add(pos_name);
+            Boolean res = sqlInsertUtil(sql,param);
             pstat.close();
             conn.close();
+            return res;
         }catch(SQLException e) {
             e.printStackTrace();
         }
@@ -156,7 +189,6 @@ public class employeeDao extends baseDao{
             arr.add(o);
         }
         String JSON = arr.toJSONString();
-        System.out.println(JSON);
         return JSON;
 
     }

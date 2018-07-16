@@ -1,4 +1,4 @@
-$("#zhuanzhen >ul >li >form >button").on('click',function() {
+$("#zzbtn").on('click',function() {
     $("#chaa2").nextAll().remove();
     var json = {
         ID: $("#ww1").val(),
@@ -23,6 +23,7 @@ $("#zhuanzhen >ul >li >form >button").on('click',function() {
                 $("#ins").append("<a href='#' class='list-group-item'><span style='margin:0px 45px;'>" + EID + "</span><span style='margin:0px 45px;'>" + last_name + first_name  + "</span><span style='margin:0px 45px;'>" + post_dest  + "</span><span style='margin:0px 45px;'>" + dept_dest + "</span><span style='margin:0px 45px;'>" + start_date + "</span></a>");
             }
             $("#chaa2").nextAll().on('click',function(){
+                var that = this;
                 $.ajax({
                     type:"GET",
                     url:"../../probationServlet",
@@ -33,6 +34,7 @@ $("#zhuanzhen >ul >li >form >button").on('click',function() {
                     success:function (data) {
                         var j = JSON.parse(data);
                         if(j.success === 1){
+                            that.remove();
                             alert("转正成功！");
                         }
                         else{

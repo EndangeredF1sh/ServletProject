@@ -23,7 +23,7 @@ public class employeeDaoTest {
 
     @Test
     public void addEmployee() {
-        BigInteger p = new BigInteger("13031040002");
+        BigInteger p = new BigInteger("13721440948");
         BigInteger o = new BigInteger("1");
         for(int i=0;i<300;i++){
             Random r = new Random();

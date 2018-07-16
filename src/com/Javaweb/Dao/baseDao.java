@@ -73,4 +73,10 @@ public class baseDao {
         }
     }
 
+    @Override
+    protected void finalize() throws Throwable {
+        super.finalize();
+        pstat.close();
+        conn.close();
+    }
 }

@@ -450,7 +450,7 @@
                 <div class="col-9 " style=" display: inline-block;margin-right: 5px;">
                     <input type="text" class="form-control input-sm-10" placeholder="输入职位搜索"></div>
                 <div class="col-9 " style=" display: inline-block;margin-right: 5px;">
-                    <input type="text" class="form-control input-sm-10" placeholder="输入岗位搜索"></div><a><i style="margin-left: 10px;" class="fa fa-search"></i></a>
+                    <input type="text" class="form-control input-sm-10" placeholder="输入部门搜索"></div><a><i style="margin-left: 10px;" class="fa fa-search"></i></a>
             </li>
             <li class="list-group-item">姓名 原岗位 现岗位 </li>
 
@@ -507,31 +507,20 @@
 
 
     <div role="tabpanel" class="tab-pane fade " id="lizhi">
-        <ul class="list-group">
+        <ul id="inss" class="list-group">
             <li class="list-group-item">
-                <div class="col-9 " style=" display: inline-block;margin-right: 5px;">
-                    <input type="text" id="wl1" class="form-control input-sm-10" placeholder="搜索员工ID"></div>
-                <div class="col-9 " style=" display: inline-block;margin-right: 5px;">
-                    <input type="text" id="wl2" class="form-control input-sm-10" placeholder="搜索原岗位"></div>
-                <div class="col-9 " style=" display: inline-block;margin-right: 5px;">
-                    <input type="text" id="wl3" class="form-control input-sm-10" placeholder="搜索原部门"></div>
-                <div class="col-9 " style=" display: inline-block;margin-right: 5px;">
-                    <input type="text" id="wl4" class="form-control input-sm-10" placeholder="搜索现岗位"></div>
-                <div class="col-9 " style=" display: inline-block;margin-right: 5px;">
-                    <input type="text" id="wl5" class="form-control input-sm-10" placeholder="搜索现部门"></div>
-                <a><i style="margin-left: 10px;" class="fa fa-search"></i></a>
+                <form class="form-horizontal">
+                    <div class="col-9 " style=" display: inline-block;margin-right: 5px;">
+                        <input id="wl1" type="text" class="form-control input-sm-10" placeholder="输入员工ID搜索"></div>
+                    <div class="col-9 " style=" display: inline-block;margin-right: 5px;">
+                        <input id="wl2" type="text" class="form-control input-sm-10" placeholder="输入现职位搜索"></div>
+                    <div class="col-9 " style=" display: inline-block;margin-right: 5px;">
+                        <input id="wl3" type="text" class="form-control input-sm-10" placeholder="输入现部门搜索"></div>
+                    <button type="button" class="btn btn-xs btn-green">保存</button>
+                    <form>
             </li>
-            <li class="list-group-item">姓名 原岗位 现岗位 </li>
 
-
-
-            <div class="list-group">
-
-                <a href="#" class="list-group-item">Dapibus ac facilisis in</a>
-                <a href="#" class="list-group-item">Morbi leo risus</a>
-                <a href="#" class="list-group-item">Porta ac consectetur ac</a>
-                <a href="#" class="list-group-item">Vestibulum at eros</a>
-            </div>
+            <li id="chaa3" class="list-group-item">ID 姓名  现岗位 现部门 最近调动时间</li>
         </ul>
 
     </div>//////离职
@@ -546,16 +535,12 @@
                     <div class="col-9 " style=" display: inline-block;margin-right: 5px;">
                         <input id="ww2" type="text" class="form-control input-sm-10" placeholder="输入现职位搜索"></div>
                     <div class="col-9 " style=" display: inline-block;margin-right: 5px;">
-                        <input id="ww3" type="text" class="form-control input-sm-10" placeholder="输入现岗位搜索"></div>
-                    <button type="button" class="btn btn-xs btn-green">保存</button>
-                    <form>
+                        <input id="ww3" type="text" class="form-control input-sm-10" placeholder="输入现部门搜索"></div>
+                    <button id="zzbtn" type="button" class="btn btn-xs btn-green">保存</button>
+                </form>
             </li>
 
             <li id="chaa2" class="list-group-item">ID 姓名  现岗位 现部门 最近调动时间</li>
-            <a href="#" class="list-group-item">Dapibus ac facilisis in</a>
-            <a href="#" class="list-group-item">Morbi leo risus</a>
-            <a href="#" class="list-group-item">Porta ac consectetur ac</a>
-            <a href="#" class="list-group-item">Vestibulum at eros</a>
         </ul>
     </div>
 
@@ -580,7 +565,7 @@
                         <input type="text" id="we4" class="form-control input-sm-10" placeholder="搜索现岗位"></div>
                     <div class="col-9 " style=" display: inline-block;margin-right: 5px;">
                         <input type="text" id="we5" class="form-control input-sm-10" placeholder="搜索现部门"></div>
-                    <button type="button" class="btn btn-xs btn-green">保存</button>
+                    <button id="cxbtn" type="button" class="btn btn-xs btn-green">保存</button>
                 </form>
             </li>
             <li id="cha2" class="list-group-item"><span style="margin:47px;">ID</span><span style="margin-left:20px; margin-right:20px;">姓名</span> <span style="margin:20px;">原岗位</span><span style="margin:20px;">现岗位</span><span style="margin:20px;">原部门</span><span style="margin:20px;">现部门</span> <span style="margin:20px;">调动日期</span></li>
@@ -957,6 +942,7 @@
     <script src="js/rollUp.js"></script>
     <script src="js/doLogout.js"></script>
     <script src="js/probation.js"></script>
+    <script src="js/leaving.js"></script>
 
     <!-- ECharts单文件引入 -->
     <script src="http://echarts.baidu.com/build/dist/echarts.js"></script>
