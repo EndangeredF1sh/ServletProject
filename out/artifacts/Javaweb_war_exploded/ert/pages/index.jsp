@@ -180,10 +180,10 @@
                                     <a href="#gongsi" data-toggle="tab">公司结构</a>
                                 </li>
                                 <li>
-                                    <a href="#renyuan" data-toggle="tab">人员分布</a>
+                                    <a href="#renyuan" data-toggle="tab" id="chartbtn">人员分布</a>
                                 </li>
                                 <li>
-                                    <a href="#gongzi" data-toggle="tab">工资概况</a>
+                                    <a href="#gongzi" data-toggle="tab" id="chart1btn">工资概况</a>
                                 </li>
                             </ul>
                             <!-- /.nav-second-level -->
@@ -240,55 +240,12 @@
 <div id="page-wrapper" class="tab-content" >
 
     <div role="tabpanel" class="tab-pane fade " id="gongzi">
-        <ul class="list-group">
-            <li class="list-group-item">
-                <div class="col-9 " style=" display: inline-block;margin-right: 5px;">
-                    <input type="text" class="form-control input-sm-10" placeholder="输入名字搜索"></div>
-                <div class="col-9 " style=" display: inline-block;margin-right: 5px;">
-                    <input type="text" class="form-control input-sm-10" placeholder="输入职位搜索"></div>
-                <div class="col-9 " style=" display: inline-block;margin-right: 5px;">
-                    <input type="text" class="form-control input-sm-10" placeholder="输入岗位搜索"></div>
-                <a type="submit" ><i style="margin-left: 10px;" class="fa fa-search"></i></a>
-            </li>
-            <li class="list-group-item"><span style="margin: 45px;">ID</span> <span style="margin: 45px;">姓名</span> <span style="margin: 45px;">原岗位</span> <span style="margin: 45px;">现岗位</span><span style="margin: 45px;">原部门</span><span style="margin: 45px;">现部门</span> <span style="margin: 45px;">调动日期</span></li>
-
-
-
-            <li class="list-group-item list-group-item-primary">This is a primary list group item</li>
-            <li class="list-group-item list-group-item-secondary">This is a secondary list group item</li>
-            <li class="list-group-item list-group-item-success">This is a success list group item</li>
-            <li class="list-group-item list-group-item-danger">This is a danger list group item</li>
-            <li class="list-group-item list-group-item-warning">This is a warning list group item</li>
-            <li class="list-group-item list-group-item-info">This is a info list group item</li>
-            <li class="list-group-item list-group-item-light">This is a light list group item</li>
-            <li class="list-group-item list-group-item-dark">This is a dark list group item</li>
-        </ul>
-
+        <div id="chart1" style="height:600px"></div>
     </div>///工资概况
 
     <div role="tabpanel" class="tab-pane fade " id="renyuan">
-        <ul class="list-group">
-            <li class="list-group-item">
-                <div class="col-9 " style=" display: inline-block;margin-right: 5px;">
-                    <input type="text" class="form-control input-sm-10" placeholder="输入名字搜索"></div>
-                <div class="col-9 " style=" display: inline-block;margin-right: 5px;">
-                    <input type="text" class="form-control input-sm-10" placeholder="输入职位搜索"></div>
-                <div class="col-9 " style=" display: inline-block;margin-right: 5px;">
-                    <input type="text" class="form-control input-sm-10" placeholder="输入岗位搜索"></div><a><i style="margin-left: 10px;" class="fa fa-search"></i></a>
-            </li>
-            <li class="list-group-item">姓名 原岗位 现岗位 </li>
-
-
-
-            <li class="list-group-item list-group-item-primary">This is a primary list group item</li>
-            <li class="list-group-item list-group-item-secondary">This is a secondary list group item</li>
-            <li class="list-group-item list-group-item-success">This is a success list group item</li>
-            <li class="list-group-item list-group-item-danger">This is a danger list group item</li>
-            <li class="list-group-item list-group-item-warning">This is a warning list group item</li>
-            <li class="list-group-item list-group-item-info">This is a info list group item</li>
-            <li class="list-group-item list-group-item-light">This is a light list group item</li>
-            <li class="list-group-item list-group-item-dark">This is a dark list group item</li>
-        </ul>
+        <!-- 为ECharts准备一个具备大小（宽高）的Dom -->
+        <div id="main" style="height:600px"></div>
 
     </div>/////人员分布
 
@@ -820,31 +777,10 @@
     <script src="../../js/jquery_md5/jquery.md5.js"></script>
     <script src="js/chperinfo.js"></script>
     <script src="js/switchaccount.js"></script>
-
-    <script>
-
-        $(function () {
-            if ($(window).width() >= 700) {//本人的项目是响应式的,但是移动端不显示回到顶部,自己可以去掉
-                $(window).scroll(function () {
-                    if ($(window).scrollTop() <= 200) {
-                        if ($(".back-top").css("display") != "none") {
-                            $(".back-top").slideUp("normal"); //缓慢下降隐藏
-                        }
-                    }
-                    else {
-                        if ($(".back-top").css("display") == "none") {
-                            $(".back-top").slideDown("normal"); //缓慢上升显示
-                        }
-                    }
-                });
-            }
-        });
-        $(".back-top").click(function () {
-            $('html,body').animate({'scrollTop':0},"slow");
-            ; //回到顶部
-        });
-
-    </script>
+    <script src="js/rollUp.js"></script>
+    <!-- ECharts单文件引入 -->
+    <script src="http://echarts.baidu.com/build/dist/echarts.js"></script>
+    <script src="js/chartView.js"></script>
 </body>
 
 </html>

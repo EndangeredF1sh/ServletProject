@@ -4,27 +4,47 @@ import com.Javaweb.Object.employee;
 import com.Javaweb.Utils.resultSetToJson;
 import org.junit.Test;
 
+import java.math.BigInteger;
 import java.sql.SQLException;
+import java.util.Random;
 
 public class employeeDaoTest {
+    /** 产生一个随机的字符串*/
+    public static String RandomString(int length) {
+        String str = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789";
+        Random random = new Random();
+        StringBuffer buf = new StringBuffer();
+        for (int i = 0; i < length; i++) {
+            int num = random.nextInt(62);
+            buf.append(str.charAt(num));
+        }
+        return buf.toString();
+    }
 
     @Test
     public void addEmployee() {
-        employee employee = new employee();
-        employee.setFirst_name("敏");
-        employee.setLast_name("张");
-        employee.setBirthday("1980-1-1");
-        employee.setEmail("0003a@a.com");
-        employee.setPhone_number("13000000007");
-        employee.setPassword("1234");
-        employee.setGender("女");
-        employee.setAddress("中国石油大学胜利学院老年大学");
-        employee.setEducation_level("大专");
-        employee.setDepartment_id(5);
-        employee.setPosition_id(2);
-        employee.setHire_date("2005-2-28");
-        employee.setSalary(150099.99);
-        employeeDao ea = new employeeDao(employee);
+        BigInteger p = new BigInteger("13031040002");
+        BigInteger o = new BigInteger("1");
+        for(int i=0;i<300;i++){
+            Random r = new Random();
+            String email = RandomString(10).toString() + "@" + RandomString(7) + ".com";
+            employee employee = new employee();
+            employee.setFirst_name("敏");
+            employee.setLast_name("张");
+            employee.setBirthday("1980-1-1");
+            employee.setEmail(email);
+            employee.setPhone_number(p.toString());
+            employee.setPassword("0123456789");
+            employee.setGender("女");
+            employee.setAddress("中国石油大学胜利学院老年大学");
+            employee.setEducation_level("大专");
+            employee.setDepartment_id((int)(r.nextDouble()*1000 % 8 + 1));
+            employee.setPosition_id((int)(r.nextDouble()*1000 % 4 + 1));
+            employee.setHire_date("2005-2-28");
+            employee.setSalary(r.nextDouble()*100000 % 27000);
+            employeeDao ea = new employeeDao(employee);
+            p = p.add(o);
+        }
         System.out.println("Test success!");
     }
 
