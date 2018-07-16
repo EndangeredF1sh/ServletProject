@@ -14,11 +14,11 @@ import java.sql.SQLException;
 public class probationServlet extends HttpServlet {
     protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
         PrintWriter out = response.getWriter();
-        String EID = request.getParameter("EID");
+        String EID = request.getParameter("ID");
         prohireChangeDao dao = new prohireChangeDao();
         try {
             String JSON = resultSetToJson.resultSetToJsonForString(dao.getprohireSelect(EID));
-            System.out.println(JSON);
+            System.out.println("转正========" + JSON);
             out.println(JSON);
         } catch (SQLException e) {
             String JSON = "{}";
@@ -32,10 +32,10 @@ public class probationServlet extends HttpServlet {
         prohireChangeDao dao = new prohireChangeDao();
         String JSON;
         if(dao.deleteProbationForID(EID)){
-            JSON = "\"success\":1}";
+            JSON = "{\"success\":1}";
         }
         else {
-            JSON = "\"success\":0}";
+            JSON = "{\"success\":0}";
         }
         out.println(JSON);
     }

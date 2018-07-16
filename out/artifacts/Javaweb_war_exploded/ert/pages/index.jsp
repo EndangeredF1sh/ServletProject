@@ -83,8 +83,8 @@
             <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
             </button>
 
-            <a class="navbar-brand" href="index.html" style="display: block;">QAQ</a>
-            <button class="btn btn-yellow btn-ms" data-toggle="modal" data-target="#addSource" style="position: absolute;top: 10px;z-index: 100;">切换账号</button>
+            <a class="navbar-brand" href="javascript:void(0);" onclick="window.location.href = window.location.href" style="display: block;">QAQ</a>
+            <button class="btn btn-yellow btn-ms" data-toggle="logoutbtn" id="logoutbtn" data-target="#addSource" style="position: absolute;top: 10px;z-index: 100;">切换账号</button>
             <!-- /.navbar-header -->
 
 
@@ -102,7 +102,7 @@
                         <!-- /input-group -->
 
                         <li>
-                            <a href="#yuangongxinxi" data-toggle="tab"><i class="fa fa-table fa-fw"></i>员工信息</a>
+                            <a href="#yuangongxinxi" data-toggle="tab"><i class="fa fa-table fa-fw"></i>添加员工</a>
                         </li>
                         <li>
                             <a href="#"><i class="fa fa-wrench fa-fw"></i>个人信息<span class="fa arrow"></span></a>
@@ -538,26 +538,27 @@
 
 
     <div role="tabpanel" class="tab-pane fade " id="zhuanzhen">
-        <ul class="list-group">
+        <ul id="ins" class="list-group">
             <li class="list-group-item">
-                <div class="col-9 " style=" display: inline-block;margin-right: 5px;">
-                    <input d="ww1" type="text" class="form-control input-sm-10" placeholder="输入员工ID搜索"></div>
-                <div class="col-9 " style=" display: inline-block;margin-right: 5px;">
-                    <input d="ww2" type="text" class="form-control input-sm-10" placeholder="输入现职位搜索"></div>
-                <div class="col-9 " style=" display: inline-block;margin-right: 5px;">
-                    <input d="ww3" type="text" class="form-control input-sm-10" placeholder="输入现岗位搜索"></div><a><i style="margin-left: 10px;" class="fa fa-search"></i></a>
+                <form class="form-horizontal">
+                    <div class="col-9 " style=" display: inline-block;margin-right: 5px;">
+                        <input id="ww1" type="text" class="form-control input-sm-10" placeholder="输入员工ID搜索"></div>
+                    <div class="col-9 " style=" display: inline-block;margin-right: 5px;">
+                        <input id="ww2" type="text" class="form-control input-sm-10" placeholder="输入现职位搜索"></div>
+                    <div class="col-9 " style=" display: inline-block;margin-right: 5px;">
+                        <input id="ww3" type="text" class="form-control input-sm-10" placeholder="输入现岗位搜索"></div>
+                    <button type="button" class="btn btn-xs btn-green">保存</button>
+                    <form>
             </li>
 
-            <div id="qq" class="list-group">
-                <li class="list-group-item">ID 姓名  现岗位 现部门 最近调动时间</li>
-                <a href="#" class="list-group-item">Dapibus ac facilisis in</a>
-                <a href="#" class="list-group-item">Morbi leo risus</a>
-                <a href="#" class="list-group-item">Porta ac consectetur ac</a>
-                <a href="#" class="list-group-item">Vestibulum at eros</a>
-            </div>
+            <li id="chaa2" class="list-group-item">ID 姓名  现岗位 现部门 最近调动时间</li>
+            <a href="#" class="list-group-item">Dapibus ac facilisis in</a>
+            <a href="#" class="list-group-item">Morbi leo risus</a>
+            <a href="#" class="list-group-item">Porta ac consectetur ac</a>
+            <a href="#" class="list-group-item">Vestibulum at eros</a>
         </ul>
-
     </div>
+
     ///转正
 
 
@@ -727,27 +728,204 @@
 
             <span style="font-size: 2.0em;padding-left:50px"></span>
         </div>
-        <div class="data-div">
-            <div class="row tableHeader">
-                <div style="color:black;font-size: 3rem; margin-left: 40px;">
-                    输入关键字
+        <form class="form-horizontal" role="form">
+
+            <label for="lasttname" class=" control-label" style="font-size: 2.5rem;">姓名</label>
+            <div class="form-group">
+                <label for="lasttname" class="col-sm-1 control-label">姓</label>
+                <div class="col-sm-5">
+                    <input type="text" class="form-control " id="firstname" placeholder="请输入姓">
                 </div>
-                <button class="btn btn-info" type="button" style="margin-top: 10px;padding-left: 25px;padding-right: 25px;margin-right: 50px;margin-left: 22px;">确定查询</button>
-                <button class="btn btn-warning" type="button" style="margin-left: 30px;margin-top: 10px;padding-left: 25px;padding-right: 25px;">重置查询</button>
-            </div>
-            <div class="tablebody">
-                <div style="float: left;margin:10px 20px;">
-                    <div class="col-9 " style=" display: inline-block;">
-                        <input type="text" class="form-control input-sm-10" placeholder="输入文字搜索"></div>
-                    <a style="text-decoration:none; display: inline-block; position: relative;right: 25px;
-                        "class="glyphicon glyphicon-plus"></a>
+                <label for="firstname" class="col-sm-1 control-label">名字</label>
+                <div class="col-sm-5">
+                    <input type="text" class="form-control" id="lastname" placeholder="请输入名字">
                 </div>
             </div>
-            <!--页码块-->
 
 
-        </div>
+
+
+
+
+
+
+            <hr style="height:1px;border:none;border-top:1px solid #555555;" />
+            <label for="lasttname" class=" control-label"  style="font-size: 2.5rem;">性别</label>
+            <div class="form-group" style="padding-left: 30px;">
+                <div class="col-sm-5">
+                    <input type="radio" name="sex" id="1" value="option1"checked> 男
+                </div>
+
+                <div class="col-sm-5">
+                    <input type="radio" name="sex" id="2" value="option2">女
+                </div>
+            </div>
+
+
+
+            <hr style="height:1px;border:none;border-top:1px solid #555555;" />
+            <label for="lasttname" class=" control-label" style="font-size: 2.5rem;">详细信息</label>
+            <div class="form-group">
+                <label for="lasttname" class="col-sm-1 control-label">部门</label>
+                <div class="col-sm-5">
+                    <input type="text" class="form-control " id="firstname" placeholder="请输入姓">
+                </div>
+                <label for="firstname" class="col-sm-1 control-label">岗位</label>
+                <div class="col-sm-5">
+                    <input type="text" class="form-control" id="lastname" placeholder="请输入名字">
+                </div>
+                <label for="lasttname" class="col-sm-1 control-label">email</label>
+                <div class="col-sm-5">
+                    <input type="text" class="form-control " id="firstname" placeholder="请输入姓">
+                </div>
+                <label for="firstname" class="col-sm-1 control-label">电话</label>
+                <div class="col-sm-5">
+                    <input type="text" class="form-control" id="lastname" placeholder="请输入名字">
+                </div>
+                <label for="firstname" class="col-sm-1 control-label">薪水</label>
+                <div class="col-sm-5">
+                    <input type="text" class="form-control" id="lastname" placeholder="请输入名字">
+                </div>
+                <label for="firstname" class="col-sm-1 control-label">学历</label>
+                <div class="col-sm-5">
+                    <input type="text" class="form-control" id="lastname" placeholder="请输入名字">
+                </div>
+                <label for="firstname" class="col-sm-1 control-label">地址</label>
+                <div class="col-sm-11">
+                    <input type="text" class="form-control" id="lastname" placeholder="请输入地址">
+                </div>
+                <label for="firstname" class="col-sm-1 control-label">出生</label>
+                <div class="col-sm-11">
+                    <input type="text" class="form-control" id="lastname" placeholder="请输入地址">
+                </div>
+            </div>
+
+
+
+            <hr style="height:1px;border:none;border-top:1px solid #555555;" />
+            <label for="lasttname" class=" control-label"  style="font-size: 2.5rem;">语言能力</label>
+            <div class="form-group">
+                <label for="lasttname" class="col-sm-1 control-label">语种</label>
+                <div class="col-sm-5">
+                    <input type="text" class="form-control " id="firstname" placeholder="请输入姓名">
+                </div>
+                <label for="firstname" class="col-sm-1 control-label">等级</label>
+                <div>
+                    <div class="col-sm-5">
+                        <input type="text" class="form-control" id="lastname" placeholder="请输入关系">
+                    </div>
+                </div>
+            </div>
+
+            <div class="form-group">
+                <label for="lasttname" class="col-sm-1 control-label">语种</label>
+                <div class="col-sm-5">
+                    <input type="text" class="form-control " id="firstname" placeholder="请输入姓名">
+                </div>
+                <label for="firstname" class="col-sm-1 control-label">等级</label>
+                <div>
+                    <div class="col-sm-5">
+                        <input type="text" class="form-control" id="lastname" placeholder="请输入关系">
+                    </div>
+                </div>
+            </div>
+
+            <button  id="tianjiayuyan" type="submit" class="btn btn-primary" style="display: block;">添加语言</button>
+
+
+
+            <hr style="height:1px;border:none;border-top:1px solid #555555;" />
+            <label for="lasttname" class=" control-label"  style="font-size: 2.5rem;">家庭</label>
+            <div class="form-group">
+                <label for="lasttname" class="col-sm-1 control-label">姓名</label>
+                <div class="col-sm-5">
+                    <input type="text" class="form-control " id="firstname" placeholder="请输入姓名">
+                </div>
+                <label for="firstname" class="col-sm-1 control-label">关系</label>
+                <div>
+                    <div class="col-sm-5">
+                        <input type="text" class="form-control" id="lastname" placeholder="请输入关系">
+                    </div>
+                    <label for="firstname" class="col-sm-1 control-label">地址</label>
+                    <div class="col-sm-11">
+                        <input type="text" class="form-control" id="lastname" placeholder="请输入地址">
+                    </div>
+                </div>
+            </div>
+
+            <div class="form-group">
+                <label for="lasttname" class="col-sm-1 control-label">姓名</label>
+                <div class="col-sm-5">
+                    <input type="text" class="form-control " id="firstname" placeholder="请输入姓名">
+                </div>
+                <label for="firstname" class="col-sm-1 control-label">关系</label>
+                <div>
+                    <div class="col-sm-5">
+                        <input type="text" class="form-control" id="lastname" placeholder="请输入关系">
+                    </div>
+                    <label for="firstname" class="col-sm-1 control-label">地址</label>
+                    <div class="col-sm-11">
+                        <input type="text" class="form-control" id="lastname" placeholder="请输入地址">
+                    </div>
+                </div>
+            </div>
+            <button id="jianjialianxi" type="submit" class="btn btn-primary" >添加联系</button>
+
+
+
+
+            <hr style="height:1px;border:none;border-top:1px solid #555555;" />
+            <label for="lasttname" class=" control-label"  style="font-size: 2.5rem;">就职经历</label>
+            <div class="form-group">
+                <label for="lasttname" class="col-sm-1 control-label">开始</label>
+                <div class="col-sm-5">
+                    <input type="text" class="form-control " id="firstname" placeholder="请输入姓名">
+                </div>
+                <label for="firstname" class="col-sm-1 control-label">结束</label>
+                <div>
+                    <div class="col-sm-5">
+                        <input type="text" class="form-control" id="lastname" placeholder="请输入关系">
+                    </div>
+                    <label for="firstname" class="col-sm-1 control-label">公司</label>
+                    <div class="col-sm-11">
+                        <input type="text" class="form-control" id="lastname" placeholder="请输入地址">
+                    </div>
+                </div>
+            </div>
+
+            <div class="form-group">
+                <label for="lasttname" class="col-sm-1 control-label">姓名</label>
+                <div class="col-sm-5">
+                    <input type="text" class="form-control " id="firstname" placeholder="请输入姓名">
+                </div>
+                <label for="firstname" class="col-sm-1 control-label">关系</label>
+                <div>
+                    <div class="col-sm-5">
+                        <input type="text" class="form-control" id="lastname" placeholder="请输入关系">
+                    </div>
+                    <label for="firstname" class="col-sm-1 control-label">地址</label>
+                    <div class="col-sm-11">
+                        <input type="text" class="form-control" id="lastname" placeholder="请输入地址">
+                    </div>
+                </div>
+            </div>
+            <button id="tianjiajinli" type="submit" class="btn btn-primary" >添加经历</button>
+
+
+
+
+
+
+            <div class="form-group">
+                <div class="col-sm-offset-6 col-sm-6">
+                    <button type="submit" class="btn btn-success" >注册</button>
+                </div>
+            </div>
+        </form>
+
     </div>
+
+
 
 
     <!-- /.col-lg-8 -->
@@ -776,8 +954,10 @@
     <script src="js/rstpwd.js"></script>
     <script src="../../js/jquery_md5/jquery.md5.js"></script>
     <script src="js/chperinfo.js"></script>
-    <script src="js/switchaccount.js"></script>
     <script src="js/rollUp.js"></script>
+    <script src="js/doLogout.js"></script>
+    <script src="js/probation.js"></script>
+
     <!-- ECharts单文件引入 -->
     <script src="http://echarts.baidu.com/build/dist/echarts.js"></script>
     <script src="js/chartView.js"></script>

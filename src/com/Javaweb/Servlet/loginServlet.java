@@ -15,7 +15,12 @@ import java.io.PrintWriter;
 public class loginServlet extends HttpServlet {
     private String message;
     protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException{
-        doPost(request,response);
+//        doPost(request,response);
+        PrintWriter out = response.getWriter();
+        String res = request.getParameter("logout");
+        HttpSession session = request.getSession(true);
+        session.invalidate();
+
     }
     protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
         response.setContentType("text/html");
