@@ -5,7 +5,7 @@ import java.util.List;
 
 public class baseDao {
     protected String driver="com.mysql.cj.jdbc.Driver";
-    protected String url="jdbc:mysql://lab.cntoworld.pw:3306/ertdatabase?useSSL=false&serverTimezone=GMT";
+    protected String url="jdbc:mysql://localhost:3306/ertdatabase?useSSL=false&serverTimezone=GMT&characterEncoding=UTF-8";
     protected String user="test";
     protected String passwd="root";
     protected Connection conn=null;

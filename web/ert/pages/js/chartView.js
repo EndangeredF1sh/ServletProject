@@ -220,5 +220,228 @@ function salaryChart(){
         }
     );
 }
+function seasonChart(){
+    var lab = [];
+    $.ajax({
+        type:"GET",
+        async:false,
+        url: '../../seasonChartServlet',
+        success:function (data) {
+            var datas = data.toString();
+            lab = datas.split('-');
+        }
+    });
+// 路径配置
+    require.config({
+        paths: {
+            echarts: 'http://echarts.baidu.com/build/dist'
+        }
+    });
+// 使用
+    require(
+        [
+            'echarts',
+            'echarts/chart/bar' // 使用柱状图就加载bar模块，按需加载
+        ],
+        function (ec) {
+            // 基于准备好的dom，初始化echarts图表
+            var myChart = ec.init(document.getElementById('chart2'));
+            $('#jitubtn').on('shown.bs.tab', function (ec) {
+                var option = {
+                    title:{
+                        show:true,
+                        text:"本季度人事报表",
+                        x:"center"
+                    },
+                    tooltip: {
+                        show: true
+                    },
+                    legend: {
+                        data:['人数'],
+                        textStyle:{
+                            fontSize:20
+                        },
+                        itemHeight:20,
+                        x:"right"
+                    },
+                    xAxis : [
+                        {
+                            type : 'category',
+                            data : ["入职人数","离职人数","调动人数"]
+                        }
+                    ],
+                    yAxis : [
+                        {
+                            type : 'value'
+                        }
+                    ],
+                    series : [
+                        {
+                            "name":"人数",
+                            "type":"bar",
+                            "data":lab
+                        }
+                    ]
+                };
+
+
+                // 为echarts对象加载数据
+                myChart.resize();
+                myChart.setOption(option);
+                myChart.setTheme('infographic');
+            });
+        }
+    );
+}
+function monthChart(){
+    var lab = [];
+    $.ajax({
+        type:"GET",
+        async:false,
+        url: '../../monthChartServlet',
+        success:function (data) {
+            var datas = data.toString();
+            lab = datas.split('-');
+        }
+    });
+// 路径配置
+    require.config({
+        paths: {
+            echarts: 'http://echarts.baidu.com/build/dist'
+        }
+    });
+// 使用
+    require(
+        [
+            'echarts',
+            'echarts/chart/bar' // 使用柱状图就加载bar模块，按需加载
+        ],
+        function (ec) {
+            // 基于准备好的dom，初始化echarts图表
+            var myChart = ec.init(document.getElementById('chart3'));
+            $('#yuetubtn').on('shown.bs.tab', function (ec) {
+                var option = {
+                    title:{
+                        show:true,
+                        text:"本月度人事报表",
+                        x:"center"
+
+                    },
+                    tooltip: {
+                        show: true
+                    },
+                    legend: {
+                        data:['人数'],
+                        textStyle:{
+                            fontSize:20
+                        },
+                        itemHeight:20,
+                        x:"right"
+                    },
+                    xAxis : [
+                        {
+                            type : 'category',
+                            data : ["入职人数","离职人数","调动人数"]
+                        }
+                    ],
+                    yAxis : [
+                        {
+                            type : 'value'
+                        }
+                    ],
+                    series : [
+                        {
+                            "name":"人数",
+                            "type":"bar",
+                            "data":lab
+                        }
+                    ]
+                };
+
+
+                // 为echarts对象加载数据
+                myChart.resize();
+                myChart.setOption(option);
+                myChart.setTheme('infographic');
+            });
+        }
+    );
+}
+function yearChart(){
+    var lab = [];
+    $.ajax({
+        type:"GET",
+        async:false,
+        url: '../../yearChartServlet',
+        success:function (data) {
+            var datas = data.toString();
+            lab = datas.split('-');
+        }
+    });
+// 路径配置
+    require.config({
+        paths: {
+            echarts: 'http://echarts.baidu.com/build/dist'
+        }
+    });
+// 使用
+    require(
+        [
+            'echarts',
+            'echarts/chart/bar' // 使用柱状图就加载bar模块，按需加载
+        ],
+        function (ec) {
+            // 基于准备好的dom，初始化echarts图表
+            var myChart = ec.init(document.getElementById('chart4'));
+            $('#niantubtn').on('shown.bs.tab', function (ec) {
+                var option = {
+                    title:{
+                        show:true,
+                        text:"本年度人事报表",
+                        x:"center"
+                    },
+                    tooltip: {
+                        show: true
+                    },
+                    legend: {
+                        data:['人数'],
+                        textStyle:{
+                            fontSize:20
+                        },
+                        itemHeight:20,
+                        x:"right"
+                    },
+                    xAxis : [
+                        {
+                            type : 'category',
+                            data : ["入职人数","离职人数","调动人数"]
+                        }
+                    ],
+                    yAxis : [
+                        {
+                            type : 'value'
+                        }
+                    ],
+                    series : [
+                        {
+                            "name":"人数",
+                            "type":"bar",
+                            "data":lab
+                        }
+                    ]
+                };
+
+
+                // 为echarts对象加载数据
+                myChart.resize();
+                myChart.setOption(option);
+                myChart.setTheme('infographic');
+            });
+        }
+    );
+}
 personChart();
 salaryChart();
+seasonChart();
+monthChart();
+yearChart();

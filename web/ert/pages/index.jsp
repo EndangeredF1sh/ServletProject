@@ -67,10 +67,21 @@
         {
             background-color: #a3a3a3;
         }
+        .change1{
+            display: none;
+            position: fixed;
+        }
+        .change2{
+            display: block;
+            position: fixed;
+            top:150px;
+            background-color: whitesmoke;
+            padding: 20px;
+        }
     </style>
 </head>
 
-<body >
+<body>
 
 <div class="back-top" style="display: none;" title="回到顶部">
     <i class="fa fa-angle-double-up"></i>
@@ -83,8 +94,8 @@
             <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
             </button>
 
-            <a class="navbar-brand" href="javascript:void(0);" onclick="window.location.href = window.location.href" style="display: block;">QAQ</a>
-            <button class="btn btn-yellow btn-ms" data-toggle="logoutbtn" id="logoutbtn" data-target="#addSource" style="position: absolute;top: 10px;z-index: 100;">切换账号</button>
+            <a class="navbar-brand" href="javascript:void(0);" onclick="window.location.href = window.location.href" style="display: block;">HUMAN RESOURCE MANAGEMENT SYSTEM</a>
+            <button class="btn btn-yellow btn-ms" data-toggle="logoutbtn" id="logoutbtn" data-target="#addSource" style="position: absolute;top: 10px;z-index: 100;">注销</button>
             <!-- /.navbar-header -->
 
 
@@ -135,13 +146,13 @@
                                     <a href="#">报表图 <span class="fa arrow"></span></a>
                                     <ul class="nav nav-third-level">
                                         <li>
-                                            <a href="#yuetu" data-toggle="tab">月度报表图</a>
+                                            <a href="#yuetu" data-toggle="tab" id="yuetubtn">月度报表图</a>
                                         </li>
                                         <li>
-                                            <a href="#jitu" data-toggle="tab">季度报表图</a>
+                                            <a href="#jitu" data-toggle="tab" id="jitubtn">季度报表图</a>
                                         </li>
                                         <li>
-                                            <a href="#niantu" data-toggle="tab">年度报表图</a>
+                                            <a href="#niantu" data-toggle="tab" id="niantubtn">年度报表图</a>
                                         </li>
                                     </ul>
                                     <!-- /.nav-third-level -->
@@ -176,9 +187,6 @@
                         <li>
                             <a href="#"><i class="fa fa-sitemap fa-fw"></i>公司现状<span class="fa arrow"></span></a>
                             <ul class="nav nav-second-level">
-                                <li>
-                                    <a href="#gongsi" data-toggle="tab">公司结构</a>
-                                </li>
                                 <li>
                                     <a href="#renyuan" data-toggle="tab" id="chartbtn">人员分布</a>
                                 </li>
@@ -241,269 +249,102 @@
 
     <div role="tabpanel" class="tab-pane fade " id="gongzi">
         <div id="chart1" style="height:600px"></div>
-    </div>///工资概况
+    </div>
 
     <div role="tabpanel" class="tab-pane fade " id="renyuan">
         <!-- 为ECharts准备一个具备大小（宽高）的Dom -->
         <div id="main" style="height:600px"></div>
 
-    </div>/////人员分布
-
-
-    <div role="tabpanel" class="tab-pane fade " id="gongsi">
-        <ul class="list-group">
-            <li class="list-group-item">
-                <div class="col-9 " style=" display: inline-block;margin-right: 5px;">
-                    <input type="text" class="form-control input-sm-10" placeholder="输入名字搜索"></div>
-                <div class="col-9 " style=" display: inline-block;margin-right: 5px;">
-                    <input type="text" class="form-control input-sm-10" placeholder="输入职位搜索"></div>
-                <div class="col-9 " style=" display: inline-block;margin-right: 5px;">
-                    <input type="text" class="form-control input-sm-10" placeholder="输入岗位搜索"></div><a><i style="margin-left: 10px;" class="fa fa-search"></i></a>
-            </li>
-            <li class="list-group-item">姓名 原岗位 现岗位 </li>
-
-
-
-            <li class="list-group-item list-group-item-primary">This is a primary list group item</li>
-            <li class="list-group-item list-group-item-secondary">This is a secondary list group item</li>
-            <li class="list-group-item list-group-item-success">This is a success list group item</li>
-            <li class="list-group-item list-group-item-danger">This is a danger list group item</li>
-            <li class="list-group-item list-group-item-warning">This is a warning list group item</li>
-            <li class="list-group-item list-group-item-info">This is a info list group item</li>
-            <li class="list-group-item list-group-item-light">This is a light list group item</li>
-            <li class="list-group-item list-group-item-dark">This is a dark list group item</li>
-        </ul>
-
-    </div>/////公司结构
-
+    </div>
 
     <div role="tabpanel" class="tab-pane fade " id="jitu">
-        <ul class="list-group">
-            <li class="list-group-item">
-                <div class="col-9 " style=" display: inline-block;margin-right: 5px;">
-                    <input type="text" class="form-control input-sm-10" placeholder="输入名字搜索"></div>
-                <div class="col-9 " style=" display: inline-block;margin-right: 5px;">
-                    <input type="text" class="form-control input-sm-10" placeholder="输入职位搜索"></div>
-                <div class="col-9 " style=" display: inline-block;margin-right: 5px;">
-                    <input type="text" class="form-control input-sm-10" placeholder="输入岗位搜索"></div><a><i style="margin-left: 10px;" class="fa fa-search"></i></a>
-            </li>
-            <li class="list-group-item">姓名 原岗位 现岗位 </li>
-
-
-
-            <li class="list-group-item list-group-item-primary">This is a primary list group item</li>
-            <li class="list-group-item list-group-item-secondary">This is a secondary list group item</li>
-            <li class="list-group-item list-group-item-success">This is a success list group item</li>
-            <li class="list-group-item list-group-item-danger">This is a danger list group item</li>
-            <li class="list-group-item list-group-item-warning">This is a warning list group item</li>
-            <li class="list-group-item list-group-item-info">This is a info list group item</li>
-            <li class="list-group-item list-group-item-light">This is a light list group item</li>
-            <li class="list-group-item list-group-item-dark">This is a dark list group item</li>
-        </ul>
-
-    </div>///////季图
+        <div id="chart2" style="height:800px"></div>
+    </div>
 
 
     <div role="tabpanel" class="tab-pane fade " id="yuetu">
-        <ul class="list-group">
-            <li class="list-group-item">
-                <div class="col-9 " style=" display: inline-block;margin-right: 5px;">
-                    <input type="text" class="form-control input-sm-10" placeholder="输入名字搜索"></div>
-                <div class="col-9 " style=" display: inline-block;margin-right: 5px;">
-                    <input type="text" class="form-control input-sm-10" placeholder="输入职位搜索"></div>
-                <div class="col-9 " style=" display: inline-block;margin-right: 5px;">
-                    <input type="text" class="form-control input-sm-10" placeholder="输入岗位搜索"></div><a><i style="margin-left: 10px;" class="fa fa-search"></i></a>
-            </li>
-            <li class="list-group-item">姓名 原岗位 现岗位 </li>
+        <div id="chart3" style="height:800px"></div>
+    </div>
 
 
 
-            <li class="list-group-item list-group-item-primary">This is a primary list group item</li>
-            <li class="list-group-item list-group-item-secondary">This is a secondary list group item</li>
-            <li class="list-group-item list-group-item-success">This is a success list group item</li>
-            <li class="list-group-item list-group-item-danger">This is a danger list group item</li>
-            <li class="list-group-item list-group-item-warning">This is a warning list group item</li>
-            <li class="list-group-item list-group-item-info">This is a info list group item</li>
-            <li class="list-group-item list-group-item-light">This is a light list group item</li>
-            <li class="list-group-item list-group-item-dark">This is a dark list group item</li>
-        </ul>
-
-    </div>/////月图
-
-
-
-    <div role="tabpanel" class="tab-pane fade " id="nian">
-        <ul class="list-group">
-            <li class="list-group-item">
-                <div class="col-9 " style=" display: inline-block;margin-right: 5px;">
-                    <input type="text" class="form-control input-sm-10" placeholder="输入名字搜索"></div>
-                <div class="col-9 " style=" display: inline-block;margin-right: 5px;">
-                    <input type="text" class="form-control input-sm-10" placeholder="输入职位搜索"></div>
-                <div class="col-9 " style=" display: inline-block;margin-right: 5px;">
-                    <input type="text" class="form-control input-sm-10" placeholder="输入岗位搜索"></div><a><i style="margin-left: 10px;" class="fa fa-search"></i></a>
-            </li>
-            <li class="list-group-item">姓名 原岗位 现岗位 </li>
-
-
-
-            <li class="list-group-item list-group-item-primary">This is a primary list group item</li>
-            <li class="list-group-item list-group-item-secondary">This is a secondary list group item</li>
-            <li class="list-group-item list-group-item-success">This is a success list group item</li>
-            <li class="list-group-item list-group-item-danger">This is a danger list group item</li>
-            <li class="list-group-item list-group-item-warning">This is a warning list group item</li>
-            <li class="list-group-item list-group-item-info">This is a info list group item</li>
-            <li class="list-group-item list-group-item-light">This is a light list group item</li>
-            <li class="list-group-item list-group-item-dark">This is a dark list group item</li>
-        </ul>
-
-    </div>/////年图
+    <div role="tabpanel" class="tab-pane fade " id="niantu">
+        <div id="chart4" style="height:800px"></div>
+    </div>
 
 
 
     <div role="tabpanel" class="tab-pane fade " id="jidubaobiao">
-        <ul class="list-group">
+        <ul id="innns" class="list-group">
             <li class="list-group-item">
-                <div class="col-9 " style=" display: inline-block;margin-right: 5px;">
-                    <input type="text" class="form-control input-sm-10" placeholder="输入名字搜索"></div>
-                <div class="col-9 " style=" display: inline-block;margin-right: 5px;">
-                    <input type="text" class="form-control input-sm-10" placeholder="输入职位搜索"></div>
-                <div class="col-9 " style=" display: inline-block;margin-right: 5px;">
-                    <input type="text" class="form-control input-sm-10" placeholder="输入岗位搜索"></div><a><i style="margin-left: 10px;" class="fa fa-search"></i></a>
+
             </li>
-            <li class="list-group-item">姓名 原岗位 现岗位 </li>
 
-
-
-            <li class="list-group-item list-group-item-primary">This is a primary list group item</li>
-            <li class="list-group-item list-group-item-secondary">This is a secondary list group item</li>
-            <li class="list-group-item list-group-item-success">This is a success list group item</li>
-            <li class="list-group-item list-group-item-danger">This is a danger list group item</li>
-            <li class="list-group-item list-group-item-warning">This is a warning list group item</li>
-            <li class="list-group-item list-group-item-info">This is a info list group item</li>
-            <li class="list-group-item list-group-item-light">This is a light list group item</li>
-            <li class="list-group-item list-group-item-dark">This is a dark list group item</li>
+            <li id="chaa7" class="list-group-item"><span style="margin:47px;">入职人数</span><span style="margin-left:20px; margin-right:20px;">离职人数</span> <span style="margin:20px;">调动人数</span></li>
         </ul>
+    </div>
 
-    </div>/////季表
+
 
 
     <div role="tabpanel" class="tab-pane fade " id="yuedubaobiao">
-        <ul class="list-group">
+        <ul id="innnss" class="list-group">
             <li class="list-group-item">
-                <div class="col-9 " style=" display: inline-block;margin-right: 5px;">
-                    <input type="text" class="form-control input-sm-10" placeholder="输入名字搜索"></div>
-                <div class="col-9 " style=" display: inline-block;margin-right: 5px;">
-                    <input type="text" class="form-control input-sm-10" placeholder="输入职位搜索"></div>
-                <div class="col-9 " style=" display: inline-block;margin-right: 5px;">
-                    <input type="text" class="form-control input-sm-10" placeholder="输入岗位搜索"></div><a><i style="margin-left: 10px;" class="fa fa-search"></i></a>
+
             </li>
-            <li class="list-group-item">姓名 原岗位 现岗位 </li>
 
+            <li id="chaa6" class="list-group-item"><span style="margin:47px;">入职人数</span><span style="margin-left:20px; margin-right:20px;">离职人数</span> <span style="margin:20px;">调动人数</span></li>
 
-
-            <li class="list-group-item list-group-item-primary">This is a primary list group item</li>
-            <li class="list-group-item list-group-item-secondary">This is a secondary list group item</li>
-            <li class="list-group-item list-group-item-success">This is a success list group item</li>
-            <li class="list-group-item list-group-item-danger">This is a danger list group item</li>
-            <li class="list-group-item list-group-item-warning">This is a warning list group item</li>
-            <li class="list-group-item list-group-item-info">This is a info list group item</li>
-            <li class="list-group-item list-group-item-light">This is a light list group item</li>
-            <li class="list-group-item list-group-item-dark">This is a dark list group item</li>
         </ul>
+    </div>
 
-    </div>//////月表
 
 
 
     <div role="tabpanel" class="tab-pane fade " id="niandubaobiao">
-        <ul class="list-group">
+        <ul id="inns" class="list-group">
             <li class="list-group-item">
-                <div class="col-9 " style=" display: inline-block;margin-right: 5px;">
-                    <input type="text" class="form-control input-sm-10" placeholder="输入名字搜索"></div>
-                <div class="col-9 " style=" display: inline-block;margin-right: 5px;">
-                    <input type="text" class="form-control input-sm-10" placeholder="输入职位搜索"></div>
-                <div class="col-9 " style=" display: inline-block;margin-right: 5px;">
-                    <input type="text" class="form-control input-sm-10" placeholder="输入岗位搜索"></div><a><i style="margin-left: 10px;" class="fa fa-search"></i></a>
+
             </li>
-            <li class="list-group-item">姓名 原岗位 现岗位 </li>
 
-
-
-            <li class="list-group-item list-group-item-primary">This is a primary list group item</li>
-            <li class="list-group-item list-group-item-secondary">This is a secondary list group item</li>
-            <li class="list-group-item list-group-item-success">This is a success list group item</li>
-            <li class="list-group-item list-group-item-danger">This is a danger list group item</li>
-            <li class="list-group-item list-group-item-warning">This is a warning list group item</li>
-            <li class="list-group-item list-group-item-info">This is a info list group item</li>
-            <li class="list-group-item list-group-item-light">This is a light list group item</li>
-            <li class="list-group-item list-group-item-dark">This is a dark list group item</li>
+            <li id="chaa5" class="list-group-item"><span style="margin:47px;">入职人数</span><span style="margin-left:20px; margin-right:20px;">离职人数</span> <span style="margin:20px;">调动人数</span></li>
         </ul>
+    </div>
 
-    </div>////年表
+
+
+
+
 
 
     <div role="tabpanel" class="tab-pane fade " id="zhigang">
-        <ul class="list-group">
+        <ul id="insss" class="list-group">
             <li class="list-group-item">
-                <div class="col-9 " style=" display: inline-block;margin-right: 5px;">
-                    <input type="text" class="form-control input-sm-10" placeholder="输入名字搜索"></div>
-                <div class="col-9 " style=" display: inline-block;margin-right: 5px;">
-                    <input type="text" class="form-control input-sm-10" placeholder="输入职位搜索"></div>
-                <div class="col-9 " style=" display: inline-block;margin-right: 5px;">
-                    <input type="text" class="form-control input-sm-10" placeholder="输入部门搜索"></div><a><i style="margin-left: 10px;" class="fa fa-search"></i></a>
+                <form class="form-horizontal">
+                    <div class="col-9 " style=" display: inline-block;margin-right: 5px;">
+                        <input id="wz1" type="text" class="form-control input-sm-10" placeholder="输入员工ID搜索"></div>
+                    <div class="col-9 " style=" display: inline-block;margin-right: 5px;">
+                        <input id="wz2" type="text" class="form-control input-sm-10" placeholder="输入现职位搜索"></div>
+                    <div class="col-9 " style=" display: inline-block;margin-right: 5px;">
+                        <input id="wz3" type="text" class="form-control input-sm-10" placeholder="输入现部门搜索"></div>
+                    <button id="ssbtn" type="button" class="btn btn-xs btn-green">保存</button>
+                </form>
             </li>
-            <li class="list-group-item">姓名 原岗位 现岗位 </li>
 
-
-            <li class="list-group-item list-group-item-primary">This is a primary list group item</li>
-            <li class="list-group-item list-group-item-secondary">This is a secondary list group item</li>
-            <li class="list-group-item list-group-item-success">This is a success list group item</li>
-            <li class="list-group-item list-group-item-danger">This is a danger list group item</li>
-            <li class="list-group-item list-group-item-warning">This is a warning list group item</li>
-            <li class="list-group-item list-group-item-info">This is a info list group item</li>
-            <li class="list-group-item list-group-item-light">This is a light list group item</li>
-            <li class="list-group-item list-group-item-dark">This is a dark list group item</li>
-
-            <li class="list-group-item list-group-item-primary">This is a primary list group item</li>
-            <li class="list-group-item list-group-item-secondary">This is a secondary list group item</li>
-            <li class="list-group-item list-group-item-success">This is a success list group item</li>
-            <li class="list-group-item list-group-item-danger">This is a danger list group item</li>
-            <li class="list-group-item list-group-item-warning">This is a warning list group item</li>
-            <li class="list-group-item list-group-item-info">This is a info list group item</li>
-            <li class="list-group-item list-group-item-light">This is a light list group item</li>
-            <li class="list-group-item list-group-item-dark">This is a dark list group item</li>
-
-            <li class="list-group-item list-group-item-primary">This is a primary list group item</li>
-            <li class="list-group-item list-group-item-secondary">This is a secondary list group item</li>
-            <li class="list-group-item list-group-item-success">This is a success list group item</li>
-            <li class="list-group-item list-group-item-danger">This is a danger list group item</li>
-            <li class="list-group-item list-group-item-warning">This is a warning list group item</li>
-            <li class="list-group-item list-group-item-info">This is a info list group item</li>
-            <li class="list-group-item list-group-item-light">This is a light list group item</li>
-            <li class="list-group-item list-group-item-dark">This is a dark list group item</li>
-
-            <li class="list-group-item list-group-item-primary">This is a primary list group item</li>
-            <li class="list-group-item list-group-item-secondary">This is a secondary list group item</li>
-            <li class="list-group-item list-group-item-success">This is a success list group item</li>
-            <li class="list-group-item list-group-item-danger">This is a danger list group item</li>
-            <li class="list-group-item list-group-item-warning">This is a warning list group item</li>
-            <li class="list-group-item list-group-item-info">This is a info list group item</li>
-            <li class="list-group-item list-group-item-light">This is a light list group item</li>
-            <li class="list-group-item list-group-item-dark">This is a dark list group item</li>
-
-            <li class="list-group-item list-group-item-primary">This is a primary list group item</li>
-            <li class="list-group-item list-group-item-secondary">This is a secondary list group item</li>
-            <li class="list-group-item list-group-item-success">This is a success list group item</li>
-            <li class="list-group-item list-group-item-danger">This is a danger list group item</li>
-            <li class="list-group-item list-group-item-warning">This is a warning list group item</li>
-            <li class="list-group-item list-group-item-info">This is a info list group item</li>
-            <li class="list-group-item list-group-item-light">This is a light list group item</li>
-            <li class="list-group-item list-group-item-dark">This is a dark list group item</li>
-
+            <li id="chaa4" class="list-group-item"><span style="margin:47px;">ID</span><span style="margin-left:70px; margin-right:20px;">姓名</span> <span style="margin:60px;">现岗位</span><span style="margin:25px;">现部门</span><span style="margin:67px;">雇佣日期</span></li>
         </ul>
+        <div id="change" class="change1">
+            <form class="form-horizontal">
+                <div class="col-9 " style=" display: inline-block;margin-right: 5px;">
+                    <input id="wz4" type="text" class="form-control input-sm-10" placeholder="输入目标职位"></div>
+                <div class="col-9 " style=" display: inline-block;margin-right: 5px;">
+                    <input id="wz5" type="text" class="form-control input-sm-10" placeholder="输入目标部门"></div>
+                <button id="queding" type="button" class="btn btn-xs btn-green">确定</button>
+                <button id="quxiao" type="button" class="btn btn-xs btn-green">取消</button>
+            </form>
+        </div>
 
     </div>
-    /////值岗
 
 
     <div role="tabpanel" class="tab-pane fade " id="lizhi">
@@ -520,10 +361,12 @@
                     <form>
             </li>
 
-            <li id="chaa3" class="list-group-item">ID 姓名  现岗位 现部门 最近调动时间</li>
+
+            <li id="chaa3" class="list-group-item"><span style="margin:47px;">ID</span><span style="margin-left:70px; margin-right:20px;">姓名</span> <span style="margin:60px;">现岗位</span><span style="margin:25px;">现部门</span><span style="margin:67px;">雇佣日期</span></li>
         </ul>
 
-    </div>//////离职
+    </div>
+
 
 
     <div role="tabpanel" class="tab-pane fade " id="zhuanzhen">
@@ -532,19 +375,16 @@
                 <form class="form-horizontal">
                     <div class="col-9 " style=" display: inline-block;margin-right: 5px;">
                         <input id="ww1" type="text" class="form-control input-sm-10" placeholder="输入员工ID搜索"></div>
-                    <div class="col-9 " style=" display: inline-block;margin-right: 5px;">
-                        <input id="ww2" type="text" class="form-control input-sm-10" placeholder="输入现职位搜索"></div>
-                    <div class="col-9 " style=" display: inline-block;margin-right: 5px;">
-                        <input id="ww3" type="text" class="form-control input-sm-10" placeholder="输入现部门搜索"></div>
                     <button id="zzbtn" type="button" class="btn btn-xs btn-green">保存</button>
                 </form>
             </li>
 
-            <li id="chaa2" class="list-group-item">ID 姓名  现岗位 现部门 最近调动时间</li>
+
+            <li id="chaa2" class="list-group-item"><span style="margin:47px;">ID</span><span style="margin-left:70px; margin-right:20px;">姓名</span> <span style="margin:60px;">现岗位</span><span style="margin:25px;">现部门</span><span style="margin:67px;">雇佣日期</span></li>
         </ul>
     </div>
 
-    ///转正
+
 
 
 
@@ -571,13 +411,13 @@
             <li id="cha2" class="list-group-item"><span style="margin:47px;">ID</span><span style="margin-left:20px; margin-right:20px;">姓名</span> <span style="margin:20px;">原岗位</span><span style="margin:20px;">现岗位</span><span style="margin:20px;">原部门</span><span style="margin:20px;">现部门</span> <span style="margin:20px;">调动日期</span></li>
         </ul>
 
-    </div>///调动查询
+    </div>
 
 
 
     <div role="tabpanel" class="tab-pane fade " id="xiugaimima">
-        <div class="check-div">
-            原始密码为12312313
+        <div class="check-div" style="color:#eee;">
+            所有账号密码都是0123456789
         </div>
         <div style="padding: 50px 0;margin-top: 50px;background-color: #fff;
                 border-radius: 5%;text-align: right;width: 420px;margin: 50px auto;">
@@ -619,7 +459,7 @@
                 </div>
             </div>
             <div class="tablebody">
-                <div style="padding: 25px 0;background-color: #fff; text-align: left;width: 43%;margin: 50px 20px auto;display: inline-block;border-radius: 10px;margin-top: 20px;position: relative;">
+                <div style="padding: 25px 0;background-color: #fff; text-align: left;width: 80%;margin: 50px 20px auto;display: inline-block;border-radius: 10px;margin-top: 20px;position: relative;">
                     <form class="form-horizontal">
                         <img id="logo" class="right " style="margin-right: 10px" src="../images/logo.png" >
                         <p id="UserID"style="margin-left: 30px;">账户ID：</p>
@@ -632,7 +472,7 @@
 
                     </form>
                 </div>
-                <div id="you"style="padding: 30px 0;background-color: #fff; text-align: left;width: 43%;margin: 50px 20px;display: inline-block;border-radius: 10px;margin-top: 20px;position: relative; ">
+                <div id="you"style="padding: 30px 0;background-color: #fff; text-align: left;width: 80%;margin: 50px 20px;display: inline-block;border-radius: 10px;margin-top: 20px;position: relative; ">
                     <form class="form-horizontal">
                         <p id="Userposition" style="margin-left: 30px;">岗位：</p>
                         <p id="Userdepartment" style="margin-left: 30px;">部门：</p>
@@ -662,7 +502,7 @@
                 </div>
             </div>
             <div class="tablebody" style="text-align: center;">
-                <div style="padding: 30px 0;background-color: #fff; text-align: left;width: 43%;margin: 50px 20px auto;display: inline-block;border-radius: 10px;margin-top: 20px;position: relative;">
+                <div style="padding: 30px 0;background-color: #fff; text-align: left;width: 80%;margin: 50px 20px auto;display: inline-block;border-radius: 10px;margin-top: 20px;position: relative;">
                     <form class="form-horizontal">
                         <img id="logo" class="right " style="margin-right: 0px" src="../images/logo.png" >
                         <p id="userID"style="margin-left: 30px;">账户ID：</p>
@@ -679,7 +519,7 @@
                         <p><span style="margin-left: 30px;margin-right: 5px;">email：</span><input style="width:183px;"id="useremail" ><p>
                     </form>
                 </div>
-                <div id="you"style="padding: 30px 0;background-color: #fff; text-align: left;width: 43%;margin: 50px 20px;display: inline-block;border-radius: 10px;margin-top: 20px;position: relative; ">
+                <div id="you"style="padding: 30px 0;background-color: #fff; text-align: left;width: 80%;margin: 50px 20px;display: inline-block;border-radius: 10px;margin-top: 20px;position: relative; ">
                     <form class="form-horizontal">
                         <p id="userposition" style="margin-left: 30px;">岗位：</p>
                         <p id="userdepartment" style="margin-left: 30px;">部门：</p>
@@ -708,22 +548,24 @@
     </div>
 
 
+
     <div role="tabpanel" class="tab-pane fade" id="yuangongxinxi">
         <div class="check-div form-inline">
 
             <span style="font-size: 2.0em;padding-left:50px"></span>
         </div>
-        <form class="form-horizontal" role="form">
+
+        <form class="form-horizontal" role="form" target="actionframe">
 
             <label for="lasttname" class=" control-label" style="font-size: 2.5rem;">姓名</label>
             <div class="form-group">
-                <label for="lasttname" class="col-sm-1 control-label">姓</label>
+                <label  class="col-sm-1 control-label">姓</label>
                 <div class="col-sm-5">
-                    <input type="text" class="form-control " id="firstname" placeholder="请输入姓">
+                    <input id="q1" type="text" class="form-control " id="firstname" placeholder="请输入姓">
                 </div>
                 <label for="firstname" class="col-sm-1 control-label">名字</label>
                 <div class="col-sm-5">
-                    <input type="text" class="form-control" id="lastname" placeholder="请输入名字">
+                    <input id="q2"type="text" class="form-control" id="lastname" placeholder="请输入名字">
                 </div>
             </div>
 
@@ -738,11 +580,11 @@
             <label for="lasttname" class=" control-label"  style="font-size: 2.5rem;">性别</label>
             <div class="form-group" style="padding-left: 30px;">
                 <div class="col-sm-5">
-                    <input type="radio" name="sex" id="1" value="option1"checked> 男
+                    <input type="radio" name="sex" id="1" value="男" checked> 男
                 </div>
 
                 <div class="col-sm-5">
-                    <input type="radio" name="sex" id="2" value="option2">女
+                    <input type="radio" name="sex" id="2" value="女">女
                 </div>
             </div>
 
@@ -751,29 +593,29 @@
             <hr style="height:1px;border:none;border-top:1px solid #555555;" />
             <label for="lasttname" class=" control-label" style="font-size: 2.5rem;">详细信息</label>
             <div class="form-group">
-                <label for="lasttname" class="col-sm-1 control-label">部门</label>
+                <label  class="col-sm-1 control-label">部门</label>
                 <div class="col-sm-5">
-                    <input type="text" class="form-control " id="firstname" placeholder="请输入姓">
+                    <input id="q3" type="text" class="form-control " id="firstname" placeholder="请输入部门">
                 </div>
                 <label for="firstname" class="col-sm-1 control-label">岗位</label>
                 <div class="col-sm-5">
-                    <input type="text" class="form-control" id="lastname" placeholder="请输入名字">
+                    <input type="text" class="form-control" id="lastname" placeholder="请输入岗位">
                 </div>
                 <label for="lasttname" class="col-sm-1 control-label">email</label>
                 <div class="col-sm-5">
-                    <input type="text" class="form-control " id="firstname" placeholder="请输入姓">
+                    <input type="text" class="form-control " id="firstname" placeholder="请输入email">
                 </div>
                 <label for="firstname" class="col-sm-1 control-label">电话</label>
                 <div class="col-sm-5">
-                    <input type="text" class="form-control" id="lastname" placeholder="请输入名字">
+                    <input type="text" class="form-control" id="lastname" placeholder="请输入电话">
                 </div>
                 <label for="firstname" class="col-sm-1 control-label">薪水</label>
                 <div class="col-sm-5">
-                    <input type="text" class="form-control" id="lastname" placeholder="请输入名字">
+                    <input type="text" class="form-control" id="lastname" placeholder="请输入薪水">
                 </div>
                 <label for="firstname" class="col-sm-1 control-label">学历</label>
                 <div class="col-sm-5">
-                    <input type="text" class="form-control" id="lastname" placeholder="请输入名字">
+                    <input type="text" class="form-control" id="lastname" placeholder="请输入学历">
                 </div>
                 <label for="firstname" class="col-sm-1 control-label">地址</label>
                 <div class="col-sm-11">
@@ -781,120 +623,78 @@
                 </div>
                 <label for="firstname" class="col-sm-1 control-label">出生</label>
                 <div class="col-sm-11">
-                    <input type="text" class="form-control" id="lastname" placeholder="请输入地址">
+                    <input type="text" class="form-control" id="lastname" placeholder="请输入出生">
                 </div>
             </div>
 
 
 
             <hr style="height:1px;border:none;border-top:1px solid #555555;" />
-            <label for="lasttname" class=" control-label"  style="font-size: 2.5rem;">语言能力</label>
-            <div class="form-group">
-                <label for="lasttname" class="col-sm-1 control-label">语种</label>
-                <div class="col-sm-5">
-                    <input type="text" class="form-control " id="firstname" placeholder="请输入姓名">
-                </div>
-                <label for="firstname" class="col-sm-1 control-label">等级</label>
-                <div>
+            <div id="yuyannengli">
+                <label class=" control-label"  style="font-size: 2.5rem;">语言能力</label>
+                <div id="dian11" class="form-group">
+                    <label class="col-sm-1 control-label">语种</label>
                     <div class="col-sm-5">
-                        <input type="text" class="form-control" id="lastname" placeholder="请输入关系">
+                        <input type="text" class="form-control " id="firstname" placeholder="请输入语种">
+                    </div>
+                    <label for="firstname" class="col-sm-1 control-label">等级</label>
+                    <div>
+                        <div class="col-sm-5">
+                            <input type="text" class="form-control" id="lastname" placeholder="请输入等级">
+                        </div>
                     </div>
                 </div>
             </div>
 
-            <div class="form-group">
-                <label for="lasttname" class="col-sm-1 control-label">语种</label>
-                <div class="col-sm-5">
-                    <input type="text" class="form-control " id="firstname" placeholder="请输入姓名">
-                </div>
-                <label for="firstname" class="col-sm-1 control-label">等级</label>
-                <div>
-                    <div class="col-sm-5">
-                        <input type="text" class="form-control" id="lastname" placeholder="请输入关系">
-                    </div>
-                </div>
-            </div>
 
-            <button  id="tianjiayuyan" type="submit" class="btn btn-primary" style="display: block;">添加语言</button>
-
-
+            <button  id="tianjiayuyan" class="btn btn-primary" style="display: block;" onclick="return false";>添加语言</button>
 
             <hr style="height:1px;border:none;border-top:1px solid #555555;" />
-            <label for="lasttname" class=" control-label"  style="font-size: 2.5rem;">家庭</label>
-            <div class="form-group">
-                <label for="lasttname" class="col-sm-1 control-label">姓名</label>
-                <div class="col-sm-5">
-                    <input type="text" class="form-control " id="firstname" placeholder="请输入姓名">
-                </div>
-                <label for="firstname" class="col-sm-1 control-label">关系</label>
-                <div>
+            <div id="jiatingguanxi">
+                <label  class=" control-label"  style="font-size: 2.5rem;">家庭</label>
+                <div class="form-group" id="dian22">
+                    <label class="col-sm-1 control-label">姓名</label>
                     <div class="col-sm-5">
-                        <input type="text" class="form-control" id="lastname" placeholder="请输入关系">
+                        <input type="text" class="form-control " placeholder="请输入姓名">
                     </div>
-                    <label for="firstname" class="col-sm-1 control-label">地址</label>
-                    <div class="col-sm-11">
-                        <input type="text" class="form-control" id="lastname" placeholder="请输入地址">
+                    <label for="firstname" class="col-sm-1 control-label">关系</label>
+                    <div>
+                        <div class="col-sm-5">
+                            <input type="text" class="form-control" placeholder="请输入关系">
+                        </div>
+                        <label for="firstname" class="col-sm-1 control-label">地址</label>
+                        <div class="col-sm-11">
+                            <input type="text" class="form-control" placeholder="请输入地址">
+                        </div>
                     </div>
                 </div>
             </div>
-
-            <div class="form-group">
-                <label for="lasttname" class="col-sm-1 control-label">姓名</label>
-                <div class="col-sm-5">
-                    <input type="text" class="form-control " id="firstname" placeholder="请输入姓名">
-                </div>
-                <label for="firstname" class="col-sm-1 control-label">关系</label>
-                <div>
-                    <div class="col-sm-5">
-                        <input type="text" class="form-control" id="lastname" placeholder="请输入关系">
-                    </div>
-                    <label for="firstname" class="col-sm-1 control-label">地址</label>
-                    <div class="col-sm-11">
-                        <input type="text" class="form-control" id="lastname" placeholder="请输入地址">
-                    </div>
-                </div>
-            </div>
-            <button id="jianjialianxi" type="submit" class="btn btn-primary" >添加联系</button>
+            <button id="tianjialianxi" class="btn btn-primary" onclick="return false";>添加联系</button>
 
 
 
 
             <hr style="height:1px;border:none;border-top:1px solid #555555;" />
-            <label for="lasttname" class=" control-label"  style="font-size: 2.5rem;">就职经历</label>
-            <div class="form-group">
-                <label for="lasttname" class="col-sm-1 control-label">开始</label>
-                <div class="col-sm-5">
-                    <input type="text" class="form-control " id="firstname" placeholder="请输入姓名">
-                </div>
-                <label for="firstname" class="col-sm-1 control-label">结束</label>
-                <div>
+            <div id="jiuzhijinli">
+                <label  class=" control-label"  style="font-size: 2.5rem;">就职经历</label>
+                <div class="form-group">
+                    <label class="col-sm-1 control-label">开始</label>
                     <div class="col-sm-5">
-                        <input type="text" class="form-control" id="lastname" placeholder="请输入关系">
+                        <input type="text" class="form-control " placeholder="请输入时间">
                     </div>
-                    <label for="firstname" class="col-sm-1 control-label">公司</label>
-                    <div class="col-sm-11">
-                        <input type="text" class="form-control" id="lastname" placeholder="请输入地址">
+                    <label for="firstname" class="col-sm-1 control-label">结束</label>
+                    <div>
+                        <div class="col-sm-5">
+                            <input type="text" class="form-control" placeholder="请输入时间">
+                        </div>
+                        <label for="firstname" class="col-sm-1 control-label">公司</label>
+                        <div class="col-sm-11">
+                            <input type="text" class="form-control" placeholder="请输入公司">
+                        </div>
                     </div>
                 </div>
             </div>
-
-            <div class="form-group">
-                <label for="lasttname" class="col-sm-1 control-label">姓名</label>
-                <div class="col-sm-5">
-                    <input type="text" class="form-control " id="firstname" placeholder="请输入姓名">
-                </div>
-                <label for="firstname" class="col-sm-1 control-label">关系</label>
-                <div>
-                    <div class="col-sm-5">
-                        <input type="text" class="form-control" id="lastname" placeholder="请输入关系">
-                    </div>
-                    <label for="firstname" class="col-sm-1 control-label">地址</label>
-                    <div class="col-sm-11">
-                        <input type="text" class="form-control" id="lastname" placeholder="请输入地址">
-                    </div>
-                </div>
-            </div>
-            <button id="tianjiajinli" type="submit" class="btn btn-primary" >添加经历</button>
+            <button id="tianjiajinli" class="btn btn-primary" onclick="return false";>添加经历</button>
 
 
 
@@ -903,13 +703,13 @@
 
             <div class="form-group">
                 <div class="col-sm-offset-6 col-sm-6">
-                    <button type="submit" class="btn btn-success" >注册</button>
+                    <button id="zhuche" onclick = "return false"class="btn btn-success" >注册</button>
                 </div>
             </div>
         </form>
 
     </div>
-
+</div>
 
 
 
@@ -943,10 +743,50 @@
     <script src="js/doLogout.js"></script>
     <script src="js/probation.js"></script>
     <script src="js/leaving.js"></script>
+    <script src="js/dpchange.js"></script>
+    <script src="js/insert.js"></script>
 
     <!-- ECharts单文件引入 -->
     <script src="http://echarts.baidu.com/build/dist/echarts.js"></script>
     <script src="js/chartView.js"></script>
+    <script type="text/javascript">
+        var lab = [];
+        $.ajax({
+            type:"GET",
+            async:false,
+            url: '../../monthChartServlet',
+            success:function (data) {
+                var datas = data.toString();
+                lab = datas.split('-');
+                $("#innnss").append("<li class='list-group-item'><span style='margin:80px;'>"+lab[0].toString()+"</span><span style='margin-left:40px; margin-right:70px;'>"+lab[1].toString()+"</span> <span style='margin:20px;'>"+lab[2].toString()+"</span></li>");
+            }
+        });
+    </script>
+    <script type="text/javascript">
+        var lab = [];
+        $.ajax({
+            type:"GET",
+            async:false,
+            url: '../../seasonChartServlet',
+            success:function (data) {
+                var datas = data.toString();
+                lab = datas.split('-');
+                $("#innns").append("<li class='list-group-item'><span style='margin:80px;'>"+lab[0].toString()+"</span><span style='margin-left:40px; margin-right:70px;'>"+lab[1].toString()+"</span> <span style='margin:20px;'>"+lab[2].toString()+"</span></li>");
+            }
+        });
+    </script>
+    <script type="text/javascript">
+        var lab = [];
+        $.ajax({
+            type:"GET",
+            async:false,
+            url: '../../yearChartServlet',
+            success:function (data) {
+                var datas = data.toString();
+                lab = datas.split('-');
+                $("#inns").append("<li class='list-group-item'><span style='margin:80px;'>"+lab[0].toString()+"</span><span style='margin-left:40px; margin-right:70px;'>"+lab[1].toString()+"</span> <span style='margin:20px;'>"+lab[2].toString()+"</span></li>");
+            }
+        });
+    </script>
 </body>
-
 </html>

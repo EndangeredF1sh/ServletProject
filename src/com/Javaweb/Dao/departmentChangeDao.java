@@ -30,7 +30,7 @@ public class departmentChangeDao extends baseDao {
         return pstat.executeQuery();
     }
     public ResultSet getParamChangeResults(String ID, String oldPosition, String oldDepartment, String newPosition, String newDepartment){
-        String sql = "select dept_change.*, ert_employees.last_name, ert_employees.first_name from dept_change,ert_employees where ert_employees.id=dept_change.ch_employee_id union select dept_change.*, '离职', '员工' from dept_change where ch_dept_destination = '离职'";
+        String sql = "select dept_change.*, ert_employees.last_name, ert_employees.first_name from dept_change,ert_employees where ert_employees.id=dept_change.ch_employee_id ";
         List<Object> param = new ArrayList<>();
         if(!ID.isEmpty()){
             sql += "and ch_employee_id = ? ";
@@ -51,6 +51,9 @@ public class departmentChangeDao extends baseDao {
         if(!newPosition.isEmpty()){
             sql += "and ch_pos_destination = ? ";
             param.add(newPosition);
+        }
+        if(ID.isEmpty() && oldDepartment.isEmpty() && newDepartment.isEmpty() && oldPosition.isEmpty() && newPosition.isEmpty()) {
+            sql += "union select dept_change.*, '离职', '员工' from dept_change where ch_dept_destination = '离职'";
         }
         return sqlSelectUtil(sql,param);
     }

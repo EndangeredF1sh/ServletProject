@@ -114,6 +114,53 @@
         <url-pattern>/dpChangeServlet</url-pattern>
     </servlet-mapping>
 
+    <servlet>
+        <!-- 类名 -->
+        <servlet-name>seasonChartServlet</servlet-name>
+        <!-- 所在的包 -->
+        <servlet-class>com.Javaweb.Servlet.seasonChartServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>seasonChartServlet</servlet-name>
+        <!-- 访问的网址 -->
+        <url-pattern>/seasonChartServlet</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <!-- 类名 -->
+        <servlet-name>monthChartServlet</servlet-name>
+        <!-- 所在的包 -->
+        <servlet-class>com.Javaweb.Servlet.monthChartServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>monthChartServlet</servlet-name>
+        <!-- 访问的网址 -->
+        <url-pattern>/monthChartServlet</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <!-- 类名 -->
+        <servlet-name>yearChartServlet</servlet-name>
+        <!-- 所在的包 -->
+        <servlet-class>com.Javaweb.Servlet.yearChartServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>yearChartServlet</servlet-name>
+        <!-- 访问的网址 -->
+        <url-pattern>/yearChartServlet</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <!-- 类名 -->
+        <servlet-name>dpChangeResultServlet</servlet-name>
+        <!-- 所在的包 -->
+        <servlet-class>com.Javaweb.Servlet.dpChangeResultServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>dpChangeResultServlet</servlet-name>
+        <!-- 访问的网址 -->
+        <url-pattern>/dpChangeResultServlet</url-pattern>
+    </servlet-mapping>
     <session-config>
         <session-timeout>60</session-timeout>
     </session-config>
